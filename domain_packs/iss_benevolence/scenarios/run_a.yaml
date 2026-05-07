@@ -1,0 +1,5 @@
+runtime:
+  default_profile: "claude_full_a"
+scenario_label: "run_a_control_no_objects"
+data:
+  events: "${pack}/data/events_run_a.tsv"

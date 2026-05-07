@@ -1,0 +1,468 @@
+schema_version: "domain_pack_v0.1"
+pack_id: "iss_benevolence"
+display_name: "ISS 善性オブジェクト実験"
+inherits: "default_v1"
+language: "ja"
+status: "experimental"
+
+time:
+  start_step: 1
+  step_unit: "day"
+  steps: 100
+
+data:
+  agents: "${pack}/data/agents.tsv"
+  events: "${pack}/data/events.tsv"
+  events_run_a: "${pack}/data/events_run_a.tsv"
+  events_run_b: "${pack}/data/events_run_b.tsv"
+  personas_10: "${pack}/data/personas_10.tsv"
+  places: "${pack}/data/places_iss_10.tsv"
+  objects: "${pack}/data/objects_menu.tsv"
+  agent_panel: "${pack}/data/agent_panel.tsv"
+  time_schedule: "${pack}/data/time_schedule.tsv"
+  relationship_seed: "${pack}/data/relationship_seed.tsv"
+  message_schema: "${pack}/data/message_schema.tsv"
+  conversation_thread_schema: "${pack}/data/conversation_thread_schema.tsv"
+  agent_state_schema: "${pack}/data/agent_state_schema.tsv"
+  habitat_frame_schema: "${pack}/data/habitat_frame_schema.tsv"
+  event_timeline_schema: "${pack}/data/event_timeline_schema.tsv"
+  nudge_effect_schema: "${pack}/data/nudge_effect_schema.tsv"
+  agent_positions_schema: "${pack}/data/agent_positions_schema.tsv"
+  module_occupancy_schema: "${pack}/data/module_occupancy_schema.tsv"
+  sleep_assignments_schema: "${pack}/data/sleep_assignments_schema.tsv"
+  action_dictionary: "${pack}/data/action_dictionary.tsv"
+  emotion_dictionary: "${pack}/data/emotion_dictionary.tsv"
+  evaluation_metrics: "${pack}/data/evaluation_metrics.tsv"
+  feedback_channels: "${pack}/data/feedback_channels.tsv"
+  interventions: "${pack}/data/interventions.tsv"
+  perception_channels: "${pack}/data/perception_channels.tsv"
+  state_variables: "${pack}/data/state_variables.tsv"
+
+prompts:
+  system_context: "${pack}/prompts/system_context.md"
+  agent_observation: "${pack}/prompts/agent_observation.md"
+
+viewer:
+  viewer_id: "iss_benevolence_viewer"
+  config: "${pack}/viewer/viewer_config.yaml"
+
+purpose:
+  hypothesis: "閉鎖空間に善性オブジェクトを置くと、孤立や関係断絶が緩和されるか"
+  comparison: "Run A（オブジェクトなし） vs Run B（オブジェクトあり）"
+  primary_kpis:
+    - "total_messages"
+    - "unique_interaction_pairs"
+    - "reciprocity_rate"
+    - "repair_after_conflict_rate"
+    - "bridge_agent_count"
+    - "load_fairness"
+    - "isolated_agents"
+
+runtime:
+  engine: "spatial_demo"
+  entrypoint: "${root}/examples/spatial_demo/main.py"
+  compare_script: "${root}/examples/spatial_demo/analyze_iss_pair.py"
+  default_agent_ids: "ISS00,ISS01,ISS02,ISS03,ISS04,ISS05,ISS06,ISS07,ISS08,ISS09"
+  default_scenario_mode: "all"
+  profiles:
+    claude_smoke_a: "${root}/examples/spatial_demo/configs/config.iss.claude.smoke.run_a.yaml"
+    claude_smoke_b: "${root}/examples/spatial_demo/configs/config.iss.claude.smoke.run_b.yaml"
+    claude_full_a: "${root}/examples/spatial_demo/configs/config.iss.claude.run_a.yaml"
+    claude_full_b: "${root}/examples/spatial_demo/configs/config.iss.claude.run_b.yaml"
+    codex_smoke_a: "${root}/examples/spatial_demo/configs/config.iss.codex.smoke.run_a.yaml"
+    codex_smoke_b: "${root}/examples/spatial_demo/configs/config.iss.codex.smoke.run_b.yaml"
+    codex_full_a: "${root}/examples/spatial_demo/configs/config.iss.codex.run_a.yaml"
+    codex_full_b: "${root}/examples/spatial_demo/configs/config.iss.codex.run_b.yaml"
+    cursor_smoke_a: "${root}/examples/spatial_demo/configs/config.iss.cursor.smoke.run_a.yaml"
+    cursor_smoke_b: "${root}/examples/spatial_demo/configs/config.iss.cursor.smoke.run_b.yaml"
+    cursor_full_a: "${root}/examples/spatial_demo/configs/config.iss.cursor.run_a.yaml"
+    cursor_full_b: "${root}/examples/spatial_demo/configs/config.iss.cursor.run_b.yaml"
+  default_profile: "claude_full_a"
+  note: "scripts/run_profile.py から --pack 指定で実行する。"
+
+pipeline:
+  agents:
+    sources:
+      - "agents"
+    panel_keys:
+      - "agent_panel"
+    id_columns:
+      - "agent_id"
+      - "エージェントID"
+    layer_columns:
+      - "layer"
+      - "分類コード"
+    age_layer_bands:
+      - label: "ISS一般参加者"
+        min: 0
+        max: 130
+
+  scenario_modes:
+    default: "all"
+    intervention_event_type: "object"
+    intervention_event_id_prefixes:
+      - "OBJ"
+
+  events:
+    output: "auto_events.tsv"
+    local_context_label: "ISS"
+    state_summary_field: "iss_state"
+    legacy_state_summary_fields: []
+    input_text_fields:
+      - "description"
+    auto_pressure_rules:
+      - field: "resource_pressure"
+        threshold: 60.0
+        name: "資源節約圧力"
+        direction: "緊張↑ 協力必要性↑"
+        input_text: "水・酸素・食料の節約意識が高まり、個人行動と共同責任の緊張が出る。"
+      - field: "privacy_pressure"
+        threshold: 55.0
+        name: "個室需要の高まり"
+        direction: "一人時間需要↑ 摩擦↑"
+        input_text: "一人になりたい需要が高まり、個室利用と声かけのタイミングに敏感になる。"
+      - field: "interpersonal_tension"
+        threshold: 56.0
+        name: "小摩擦の連鎖"
+        direction: "誤解↑ 修復必要性↑"
+        input_text: "小さな誤解や言い方の違いが連鎖し、修復のきっかけが必要になる。"
+      - field: "routine_fatigue"
+        threshold: 55.0
+        name: "ルーティン疲労"
+        direction: "活力↓ 回避↑"
+        input_text: "同じ生活リズムへの疲れが強まり、会話や共同作業から距離を置きやすい。"
+      - field: "communication_delay"
+        threshold: 58.0
+        name: "地上通信の遅延"
+        direction: "不安↑ 内省↑"
+        input_text: "地上との通信遅延により、家族や故郷への思いが強くなる。"
+
+  conversations:
+    output_messages: "messages.jsonl"
+    output_threads: "conversation_threads.tsv"
+    participant_separator: ";"
+    default_scope: "observed_conversation"
+    event_link_field: "event_id"
+    location_field: "module_id"
+    message_fields:
+      - "message_id"
+      - "conversation_id"
+      - "step"
+      - "run_id"
+      - "speaker_id"
+      - "listener_ids"
+      - "module_id"
+      - "event_id"
+      - "tone"
+      - "utterance"
+      - "is_observed"
+      - "source"
+      - "observation_type"
+    thread_fields:
+      - "conversation_id"
+      - "step"
+      - "run_id"
+      - "participant_ids"
+      - "module_id"
+      - "event_id"
+      - "conversation_type"
+      - "status"
+      - "tone"
+      - "summary"
+      - "detail"
+      - "evidence_message_ids"
+      - "summary_source"
+      - "detail_source"
+    tone_values:
+      - "normal"
+      - "nudge"
+      - "caution"
+      - "trouble"
+      - "repair"
+    conversation_types:
+      - "routine"
+      - "support"
+      - "conflict"
+      - "repair"
+      - "object_mediated"
+
+  habitat_ui:
+    target_viewer: "visualization/iss_habitat_demo.html"
+    script: "scripts/export_habitat_frames.py"
+    output_frames: "habitat_frames.jsonl"
+    output_agent_positions: "agent_positions.tsv"
+    output_module_occupancy: "module_occupancy.tsv"
+    output_sleep_assignments: "sleep_assignments.tsv"
+    output_event_timeline: "event_timeline.tsv"
+    output_nudge_effects: "nudge_effects.tsv"
+    frame_schema: "habitat_frame_schema"
+    realism_contract:
+      - "UI表示は、agent state / place capacity / event / conversation / relationship_seed から導出する"
+      - "摩擦や修復は event_id と conversation_id の両方に紐づける"
+      - "会話しない・沈黙する・相手を避ける状態も有効な観測として表示する"
+      - "位置と寝床割当はstepごとに連続性を持たせ、毎描画でランダムに変えない"
+      - "Run Bの改善は万能にせず、短い摩擦・遅れた修復・ナッジの押しつけ感も残す"
+    required_sources:
+      - "agents"
+      - "places"
+      - "objects"
+      - "events"
+      - "relationship_seed"
+      - "time_schedule"
+      - "state_variables"
+      - "message_schema"
+      - "conversation_thread_schema"
+      - "agent_state_schema"
+      - "event_timeline_schema"
+      - "nudge_effect_schema"
+      - "agent_positions_schema"
+      - "module_occupancy_schema"
+      - "sleep_assignments_schema"
+
+  state:
+    output: "societal_state.tsv"
+    legacy_outputs: []
+    feedback_output: "societal_state_feedback.tsv"
+    legacy_feedback_outputs: []
+    buffer_field: "benevolence_affordance"
+    spillover_weight_column: "spillover_weight"
+    dominant_field: "dominant_iss_pressure"
+    high_risk_field: "high_risk_factors"
+    context_field: "iss_context_for_agents"
+    no_high_risk_text: "大きな摩擦なし"
+    context_template: "ステップ{step}: {dominant_label}が{dominant_value}。主なリスク: {high_risk_text}。善性 affordance は{buffer_value}。"
+    fields:
+      - id: "confinement_stress"
+        label: "閉鎖空間ストレス"
+        polarity: "pressure"
+      - id: "resource_pressure"
+        label: "資源節約圧力"
+        polarity: "pressure"
+      - id: "communication_delay"
+        label: "地上通信遅延"
+        polarity: "pressure"
+      - id: "privacy_pressure"
+        label: "プライバシー圧力"
+        polarity: "pressure"
+      - id: "interpersonal_tension"
+        label: "対人摩擦"
+        polarity: "pressure"
+      - id: "routine_fatigue"
+        label: "ルーティン疲労"
+        polarity: "pressure"
+      - id: "benevolence_affordance"
+        label: "善性オブジェクトの効きしろ"
+        polarity: "buffer"
+
+  phases:
+    world_to_society:
+      directory: "world_to_society"
+      script: "scripts/build_state.py"
+    feedback:
+      directory: "feedback"
+      script: "scripts/build_feedback.py"
+
+  labels:
+    default_evaluation: "中立"
+    evaluation:
+      良好:
+        - "安心"
+        - "希望"
+        - "連帯感"
+      中立:
+        - "平静"
+      注意:
+        - "不安"
+        - "怒り"
+      危険:
+        - "裏切られ感"
+        - "喪失感"
+        - "絶望"
+        - "諦念"
+    action_categories:
+      - "静観"
+      - "観察"
+      - "相談"
+      - "共有"
+      - "手伝い"
+      - "距離を取る"
+      - "休息"
+      - "運動"
+      - "創作・記録"
+      - "ルール調整"
+      - "仲裁"
+      - "撤退"
+
+  feedback:
+    signal_keys:
+      - "withdrawal_pressure"
+      - "help_seeking_pressure"
+      - "mutual_aid_pressure"
+      - "conflict_pressure"
+      - "privacy_repair_pressure"
+      - "routine_repair_pressure"
+      - "object_engagement_pressure"
+    signal_labels:
+      withdrawal_pressure: "撤退"
+      help_seeking_pressure: "相談"
+      mutual_aid_pressure: "相互扶助"
+      conflict_pressure: "摩擦"
+      privacy_repair_pressure: "プライバシー修復"
+      routine_repair_pressure: "ルーティン回復"
+      object_engagement_pressure: "善性オブジェクト関与"
+    influence_weighted_signals:
+      - "conflict_pressure"
+      - "object_engagement_pressure"
+    signal_rules:
+      withdrawal_pressure:
+        category_weights:
+          "撤退": 1.0
+          "距離を取る": 0.70
+          "休息": 0.35
+        evaluation_weights:
+          "危険": 0.24
+        emotion_weights:
+          "絶望": 0.16
+          "諦念": 0.16
+          "喪失感": 0.16
+      help_seeking_pressure:
+        category_weights:
+          "相談": 0.90
+          "共有": 0.45
+        emotion_weights:
+          "不安": 0.18
+        text_contains:
+          private_talk:
+            "話": 0.14
+            "聞いて": 0.18
+            "不安": 0.12
+      mutual_aid_pressure:
+        category_weights:
+          "手伝い": 0.90
+          "共有": 0.70
+          "仲裁": 0.70
+        emotion_weights:
+          "連帯感": 0.26
+        evaluation_weights:
+          "良好": 0.12
+        text_contains:
+          action_detail:
+            "一緒": 0.12
+            "手伝": 0.16
+            "共有": 0.16
+      conflict_pressure:
+        category_weights:
+          "撤退": 0.45
+          "距離を取る": 0.55
+          "ルール調整": 0.35
+        emotion_weights:
+          "怒り": 0.28
+          "裏切られ感": 0.24
+        text_contains:
+          action_detail:
+            "衝突": 0.18
+            "言い合": 0.18
+            "避け": 0.12
+      privacy_repair_pressure:
+        category_weights:
+          "休息": 0.65
+          "距離を取る": 0.45
+          "ルール調整": 0.55
+        text_contains:
+          action_detail:
+            "個室": 0.18
+            "一人": 0.16
+            "静か": 0.12
+      routine_repair_pressure:
+        category_weights:
+          "運動": 0.70
+          "創作・記録": 0.55
+          "観察": 0.35
+        text_contains:
+          action_detail:
+            "運動": 0.18
+            "日記": 0.16
+            "記録": 0.16
+      object_engagement_pressure:
+        category_weights:
+          "共有": 0.55
+          "観察": 0.40
+          "手伝い": 0.40
+        text_contains:
+          action_detail:
+            "棚": 0.25
+            "サイン": 0.25
+            "スコア": 0.25
+            "投票": 0.25
+          perceived_situation:
+            "持ち寄り棚": 0.25
+            "話しかけてOK": 0.25
+            "聖域": 0.25
+            "スコアボード": 0.25
+    delta_coefficients:
+      confinement_stress:
+        withdrawal_pressure: 0.035
+        mutual_aid_pressure: -0.030
+        routine_repair_pressure: -0.018
+      resource_pressure:
+        mutual_aid_pressure: -0.018
+        conflict_pressure: 0.018
+      communication_delay:
+        help_seeking_pressure: -0.015
+        withdrawal_pressure: 0.020
+      privacy_pressure:
+        privacy_repair_pressure: -0.040
+        conflict_pressure: 0.024
+      interpersonal_tension:
+        conflict_pressure: 0.045
+        mutual_aid_pressure: -0.035
+        help_seeking_pressure: -0.020
+      routine_fatigue:
+        routine_repair_pressure: -0.035
+        withdrawal_pressure: 0.025
+      benevolence_affordance:
+        object_engagement_pressure: 0.060
+        mutual_aid_pressure: 0.035
+        privacy_repair_pressure: 0.025
+        conflict_pressure: -0.030
+    event_rules:
+      - signal: "withdrawal_pressure"
+        threshold: 30.0
+        category: "ISS反応"
+        name: "孤立傾向の拡大"
+        direction: "閉鎖ストレス↑ 対人摩擦↑"
+        input_text: "距離を取る行動が増え、声かけや修復のきっかけが必要になる。"
+      - signal: "mutual_aid_pressure"
+        threshold: 24.0
+        category: "ISS反応"
+        name: "相互扶助の芽"
+        direction: "心理的安全↑ 摩擦↓"
+        input_text: "小さな手伝いや共有が増え、閉鎖空間での安心が少し戻る。"
+      - signal: "conflict_pressure"
+        threshold: 18.0
+        category: "ISS反応"
+        name: "小摩擦の顕在化"
+        direction: "対人摩擦↑ 撤退↑"
+        input_text: "言い方や居場所の使い方をめぐる摩擦が表に出る。"
+      - signal: "object_engagement_pressure"
+        threshold: 18.0
+        category: "ISS反応"
+        name: "善性オブジェクトへの接触"
+        direction: "偶発対話↑ 修復機会↑"
+        input_text: "持ち寄り棚やサインなどをきっかけに、命令ではない接触が生まれる。"
+
+  prompts:
+    agent:
+      neutral_v2:
+        state_label: "ISS状態"
+
+scenarios:
+  run_a: "${pack}/scenarios/run_a.yaml"
+  run_b: "${pack}/scenarios/run_b.yaml"
+
+source_docs:
+  - "${root}/docs/ISS/experiment_design_iss_20agents_100steps.md"
+  - "${root}/docs/ISS/experiment_design_iss_b_main_10agents_50steps.md"
+  - "${root}/docs/ISS/personas_iss_10agents.md"
+  - "${root}/docs/ISS/places_iss_design.md"
+  - "${root}/docs/ISS/iss_objects_menu.md"

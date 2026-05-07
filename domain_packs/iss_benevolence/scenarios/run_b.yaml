@@ -1,0 +1,5 @@
+runtime:
+  default_profile: "claude_full_b"
+scenario_label: "run_b_treatment_with_objects"
+data:
+  events: "${pack}/data/events_run_b.tsv"

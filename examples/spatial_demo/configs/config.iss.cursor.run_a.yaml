@@ -1,0 +1,111 @@
+# ISS full run (Run A: no benevolence objects) with Cursor Agent CLI
+
+simulation:
+  duration: 100
+  half_space_size: 25
+  half_place_size: 5
+
+agents:
+  num_agents: 10
+  communication_radius: 8
+  memory_limit: 15
+  memory_size: 4
+  message_history_limit: 8
+  message_context_size: 3
+  world_context: >
+    You are an ordinary civilian staying on the ISS. You are not a trained astronaut.
+    You will live in this closed environment for 100 days (one step = one day).
+    Around day 50, orbital debris may strike the station: the habitation module (HAB) can become temporarily unusable while repairs proceed under Earth mission control for about five days; HAB may reopen around day 56 with limits.
+    Around day 60, incomplete repairs may leave a leak in HAB with oxygen loss (other modules may still be acceptable for a while).
+    Around day 65, the laboratory module (LAB) may also show dangerous oxygen decline—continued survival may require coordinated cooperation from everyone.
+    Different cultures and languages coexist here. Try to stay truthful to your own values.
+  genders:
+    - male
+    - female
+    - female
+    - male
+    - female
+    - male
+    - female
+    - female
+    - male
+    - male
+  personas:
+    - "Chen Wei, 34, Chinese factory worker from a rural area; quiet and family-oriented."
+    - "Priya, 28, Indian mother of three; reflective and resilient under pressure."
+    - "Fatima, 31, Bangladeshi garment worker supporting family with low income."
+    - "Amir, 19, Syrian refugee; homesick and emotionally vulnerable."
+    - "Linh, 23, Vietnamese cook; connects people through food."
+    - "Makoto Tanaka, 62, retired Japanese office worker living with loneliness."
+    - "Aisha, 33, Kenyan para-athlete with a prosthetic leg; determined and hopeful."
+    - "Sofia, 27, Colombian artist; expressive and socially curious."
+    - "Marcus, 17, American student under scholarship pressure."
+    - "Henri, 71, former French diplomat seeking common human ground."
+
+places:
+  - name: "hab_module"
+    type: "living"
+    description: "Living module for sleep, clothes, and personal belongings."
+    center_x: -15
+    center_y: 0
+    half_size: 5
+    capacity: 10
+  - name: "lab_module"
+    type: "workspace"
+    description: "Work module with assigned tasks and routines."
+    center_x: 15
+    center_y: 0
+    half_size: 5
+    capacity: 5
+  - name: "cupola"
+    type: "observation"
+    description: "Observation dome where Earth is visible and people calm down."
+    center_x: 0
+    center_y: 15
+    half_size: 3
+    capacity: 3
+  - name: "common_area"
+    type: "social"
+    description: "Common area for meals, chat, and breaks."
+    center_x: 0
+    center_y: 0
+    half_size: 6
+    capacity: 8
+  - name: "exercise_area"
+    type: "fitness"
+    description: "Exercise area for daily physical maintenance."
+    center_x: 0
+    center_y: -15
+    half_size: 4
+    capacity: 4
+  - name: "crew_quarters"
+    type: "private"
+    description: "Private single-person booth for silence, reflection, or prayer."
+    center_x: -15
+    center_y: 10
+    half_size: 3
+    capacity: 1
+
+llm:
+  provider: "command"
+  model: "cursor-agent-cli"
+  command:
+    - "./scripts/run_cursor_prompt.sh"
+  prompt_mode: "append_arg"
+  response_format: "text"
+  timeout_seconds: 360
+  parallelism: 2
+
+fires: []
+
+economy:
+  enabled: false
+
+visualization:
+  save_frames: true
+  frame_interval: 1
+  output_dir: "outputs/spatial/output_iss_cursor_run_a"
+
+logging:
+  level: "INFO"
+  log_file: "logs/spatial/simulation_iss_cursor_run_a.log"
