@@ -1,4 +1,4 @@
-# ISS Closed Habitat Stress Simulator
+# ISS Closed Habitat Stress Simulator (Model: Cursor Composer 2 at local)
 
 ISSのような閉鎖空間で、LLMエージェントがどのようにストレスを受け、会話し、協力し、衝突し、修復するかを観測するシミュレーションデモです。
 
