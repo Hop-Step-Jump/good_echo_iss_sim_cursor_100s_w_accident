@@ -1,0 +1,7 @@
+field	type	required	description
+step	integer	yes	対象ステップ。
+module_id	string	yes	モジュールID。
+occupancy	integer	yes	そのstepで滞在しているagent数。
+capacity	integer	yes	モジュール定員。
+crowding_level	string	yes	normal/high/over。
+is_over_capacity	boolean	yes	定員超過かどうか。

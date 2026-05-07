@@ -1,0 +1,46 @@
+schema_version: "default_config_v1"
+default_id: "default_v1"
+language: "ja"
+
+time:
+  start_step: 1
+  step_unit: "month"
+  steps: 24
+
+data:
+  emotion_dictionary: "${default}/data/emotion_dictionary.tsv"
+  action_dictionary: "${default}/data/action_dictionary.tsv"
+  perception_channels: "${default}/data/perception_channels.tsv"
+  feedback_channels: "${default}/data/feedback_channels.tsv"
+  evaluation_metrics: "${default}/data/evaluation_metrics.tsv"
+  state_variables: "${default}/data/state_variables.tsv"
+  interventions: "${default}/data/interventions.tsv"
+
+prompts:
+  system_context: "${default}/prompts/system_context.md"
+  agent_observation: "${default}/prompts/agent_observation.md"
+
+viewer:
+  viewer_id: "domain_viewer"
+  config: "${default}/viewer/viewer_config.yaml"
+
+hooks:
+  pre_run: []
+  pre_step: []
+  pre_observation: []
+  post_observation: []
+  aggregate: []
+  feedback: []
+  post_step: []
+  export_viewer: []
+  audit: []
+
+column_aliases:
+  agent_id: ["agent_id"]
+  population_weight: ["population_weight"]
+  event_id: ["event_id"]
+  start_step: ["start_step"]
+
+output:
+  row_schema: "agent_turn_v1"
+  run_root: "outputs/runs"

@@ -1,0 +1,8 @@
+state_id	name	description	min_value	max_value	initial_value	source
+confinement_stress	閉鎖空間ストレス	閉じた環境、距離の近さ、逃げ場の少なさによる負荷	0	100	50	iss_benevolence
+resource_pressure	資源節約圧力	水、酸素、食料、作業時間の制約による圧力	0	100	45	iss_benevolence
+communication_delay	地上通信遅延	地上との通信遅れが生む不安と解釈負荷	0	100	40	iss_benevolence
+privacy_pressure	プライバシー圧力	個室、静穏、一人時間の不足による負荷	0	100	45	iss_benevolence
+interpersonal_tension	対人摩擦	言い方、役割、文化差、負荷偏在から生じる摩擦	0	100	40	iss_benevolence
+routine_fatigue	ルーティン疲労	同じ生活リズムと作業反復による停滞感	0	100	42	iss_benevolence
+benevolence_affordance	善性オブジェクトの効きしろ	命令ではない物や環境が支援・共有を促す余地	0	100	35	iss_benevolence

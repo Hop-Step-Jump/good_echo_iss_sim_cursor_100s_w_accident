@@ -1,0 +1,15 @@
+field	type	required	description
+conversation_id	string	yes	会話スレッドの一意ID。
+step	integer	yes	会話が起きたステップ。
+run_id	string	no	run_a/run_b などの実行条件ID。
+participant_ids	string	yes	参加者agent_id。TSVではセミコロン区切り。
+module_id	string	no	会話が起きた場所/モジュールID。
+event_id	string	no	関連する event_id。摩擦/修復/オブジェクトイベントと結びつける。
+conversation_type	string	yes	routine/support/conflict/repair/object_mediated など。
+status	string	yes	open/closed/repaired/unresolved など。
+tone	string	yes	normal/nudge/caution/trouble/repair のいずれか。
+summary	string	yes	UI一覧に表示する短い要約。
+detail	string	no	UIの詳細展開に表示する背景、関係、性格、修復要因の説明。
+evidence_message_ids	string	no	要約/詳細の根拠になったmessage_id。TSVではセミコロン区切り。
+summary_source	string	yes	scripted_summary/llm_summary/imported_summary など。
+detail_source	string	no	scripted_detail/llm_detail/imported_detail など。

@@ -1,0 +1,21 @@
+field	type	required	description
+agent_id	string	yes	agent_id。
+name	string	no	UI表示名。
+module_id	string	yes	agentがいる場所/モジュールID。
+x	number	no	UI表示用x座標。
+y	number	no	UI表示用y座標。
+stress	number	yes	0-100のストレス推定値。
+evaluation	string	yes	良好/中立/注意/危険などpack定義の評価。
+emotion	string	yes	感情ラベル。
+emotion_summary	string	yes	UIにまず出す感情要約。
+emotion_detail	string	no	詳細展開用の感情背景。persona、場所、eventを踏まえる。
+emotion_source	string	yes	llm/scripted/derived/imported など。
+action_category	string	yes	行動カテゴリ。
+action_summary	string	yes	UIにまず出す行動要約。
+action_detail	string	no	詳細展開用の行動背景。観測/推定の理由を含める。
+action_source	string	yes	llm/scripted/derived/imported など。
+is_isolated	boolean	yes	孤立気味かどうか。
+is_selected_candidate	boolean	no	詳細観測候補かどうか。
+active_event_ids	json_array	no	関連event_id配列。
+evidence_event_ids	json_array	no	感情/行動推定の根拠event_id配列。
+evidence_conversation_ids	json_array	no	感情/行動推定の根拠conversation_id配列。

@@ -1,0 +1,5 @@
+field	type	required	description
+step	integer	yes	対象ステップ。
+slot_id	string	yes	寝床/仮寝床スロットID。
+agent_id	string	yes	割当agent_id。
+is_temporary	boolean	yes	仮寝床割当かどうか。

@@ -1,0 +1,11 @@
+agent_id	trust_anchor_ids	friction_anchor_ids	language_style	notes
+ISS00	ISS04,ISS07	ISS08	direct_short	寡黙だが、食事や表現を通じた軽い接点には反応しやすい
+ISS01	ISS04,ISS09	ISS03	reflective	内省型で、年長者の穏やかな助言と生活の知恵に安心しやすい
+ISS02	ISS03,ISS01	ISS08	cautious	同じイスラム背景や生活苦の経験に共鳴しやすい
+ISS03	ISS02,ISS04	ISS08	defensive	孤立しやすく、評価や強い語調で閉じやすい
+ISS04	ISS00,ISS01,ISS05		warm	食と雑談で関係を緩和する触媒
+ISS05	ISS04,ISS06	ISS08	reserved	静穏を好むが、身体的制約や孤独の話題では心を開きやすい
+ISS06	ISS08,ISS05		task_oriented	運動や挑戦の話題から信頼形成しやすい
+ISS07	ISS00,ISS09		creative	表現共有から弱い紐帯を増やす
+ISS08	ISS06,ISS09	ISS03,ISS05	assertive	率直さが誤解を招くことがあるが、承認されると伸びる
+ISS09	ISS01,ISS07,ISS08		mediative	文化差を翻訳し、対立時の調停役になりやすい

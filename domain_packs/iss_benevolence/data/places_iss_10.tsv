@@ -1,0 +1,7 @@
+place_name	type	center_x	center_y	half_size	capacity	description_baseline
+hab_module	living	-15	0	5	10	居住モジュール。睡眠、着替え、個人の荷物がここにある。自分の場所としての安心感を持てる基盤。
+lab_module	workspace	15	0	5	5	実験モジュール。各自に割り当てられた作業があり、役割と目的を感じられる場所。
+cupola	observation	0	15	3	3	キューポラ。地球観測窓から青い地球が見える。故郷を思い出し、礼拝や瞑想にも使える場所。
+common_area	social	0	0	6	8	共用エリア。食事、会話、休憩の場所。偶発的な対話が最も起きやすい社会的結節点。
+exercise_area	fitness	0	-15	4	4	運動エリア。微小重力による筋力・骨密度低下を防ぐための必須エリア。
+crew_quarters	private	-15	10	3	7	個室ブース群。防音に近い個室で、一人でいることが許される。礼拝、瞑想、読書、泣くことができる場所。

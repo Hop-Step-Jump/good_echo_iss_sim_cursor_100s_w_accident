@@ -1,0 +1,16 @@
+field	type	required	description
+run_id	string	yes	run_a/run_b などの実行条件ID。
+step	integer	yes	UIフレームの対象ステップ。
+phase	string	yes	時間スケジュール上のフェーズ名。
+agent_states	json	yes	各agentの表示状態配列。agent_state_schema.tsv を正とし、emotion/action の raw label, summary, detail, source, evidence を含む。
+module_states	json	yes	各モジュールの表示状態配列。module_id/occupancy/capacity/crowding_level/is_over_capacity に加え oxygen_percent/oxygen_is_critical を含む。
+module_oxygen	json	no	モジュール別の酸素濃度（%）の観測値。{module_id: oxygen_percent} の辞書。
+active_objects	json	yes	表示中の善性オブジェクト配列。object_id/module_id/x/y/effect/is_activeを含む。
+active_events	json	yes	そのstepで有効なイベント配列。event_id/event_type/event_name/target/intensity/statusを含む。
+active_incidents	json	yes	摩擦・言い合い・修復の表示配列。event_id/participant_ids/module_id/severity/status/labelを含む。
+conversation_ids	json	yes	このstepでUIに表示できるconversation_id配列。
+metrics	json	yes	平均ストレス、孤立人数、摩擦件数、修復率、個室待ちなどのUI用KPI。
+sleep_assignments	json	no	寝床割当。slot_id/agent_id/is_temporaryを含む。
+summary	string	no	そのstepの短い自然言語サマリ。
+detail	string	no	そのstepの詳細説明。場所、摩擦、修復、会話量の背景を含める。
+source	string	yes	llm/scripted/derived/ui_demo など生成元。

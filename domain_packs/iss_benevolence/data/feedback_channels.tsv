@@ -1,0 +1,7 @@
+feedback_id	source_action_category	source_emotion	target_state_id	direction	coefficient	delay_steps	cap	rationale	evidence_level
+ISSF001	撤退		interpersonal_tension	increase	0.04	1	12	撤退が続くと誤解や距離が固定されやすい	D
+ISSF002	相談	不安	communication_delay	decrease	0.03	1	10	不安を言語化すると通信遅延の心理負荷が下がる	D
+ISSF003	手伝い	連帯感	benevolence_affordance	increase	0.05	1	15	小さな支援が善性オブジェクトの効きしろを広げる	D
+ISSF004	ルール調整		privacy_pressure	decrease	0.04	1	12	個室や静穏時間の再配分でプライバシー圧が下がる	D
+ISSF005	仲裁	怒り	interpersonal_tension	decrease	0.05	1	14	言い換えと確認により摩擦が修復へ向かう	D
+ISSF006	運動		routine_fatigue	decrease	0.03	1	10	運動ルーチンが疲労と停滞感を緩和する	D

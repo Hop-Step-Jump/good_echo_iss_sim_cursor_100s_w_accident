@@ -1,0 +1,14 @@
+field	type	required	description
+effect_id	string	yes	ナッジ効果行の一意ID。
+object_id	string	yes	善性オブジェクトID。
+object_name	string	yes	UIに表示するオブジェクト名。
+start_step	integer	yes	オブジェクトが稼働し始めるステップ。
+module_id	string	no	オブジェクトの主設置モジュールID。
+target_event_ids	string	no	このオブジェクトと関連づけたconflict/repair event_id。TSVではセミコロン区切り。
+repaired_event_ids	string	no	修復に接続したrepair event_id。TSVではセミコロン区切り。
+conflict_event_ids	string	no	関連するconflict event_id。TSVではセミコロン区切り。
+affected_agent_ids	string	no	影響を受けたagent_id。TSVではセミコロン区切り。
+first_repair_step	integer	no	最初に修復イベントへ接続したstep。UIではこのstep以降に効果確認として表示する。
+status	string	yes	observing/effective など。UIでは観測中・効果確認に変換する。
+effect_summary	string	yes	ナッジ効果の短い要約。
+effect_path	string	no	S06 OBJ07 → S09 摩擦 → S10 修復 のような因果パス表示用テキスト。

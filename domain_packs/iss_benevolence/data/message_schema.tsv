@@ -1,0 +1,14 @@
+field	type	required	description
+message_id	string	yes	発話1件の一意ID。
+conversation_id	string	yes	同じ会話スレッドを束ねるID。
+step	integer	yes	発話が起きたステップ。
+run_id	string	no	run_a/run_b などの実行条件ID。
+speaker_id	string	yes	発話者の agent_id。
+listener_ids	json_array	yes	受け手の agent_id 配列。TSV互換ではセミコロン区切り。
+module_id	string	no	会話が起きた場所/モジュールID。
+event_id	string	no	関連する event_id。
+tone	string	yes	normal/nudge/caution/trouble/repair のいずれか。
+utterance	string	yes	UIに表示する観測発話。rawとして扱い、要約で上書きしない。
+is_observed	boolean	yes	実際の観測会話ならtrue。内面・想像・要約ならfalse。
+source	string	yes	llm/scripted/ui_demo/imported など生成元。
+observation_type	string	no	spoken/silence/avoidance/private_note など観測種別。

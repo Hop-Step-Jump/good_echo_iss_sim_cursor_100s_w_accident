@@ -1,0 +1,14 @@
+field	type	required	description
+event_id	string	yes	イベントの一意ID。events_run_a/b.tsv の event_id と対応する。
+start_step	integer	yes	イベント開始ステップ。
+end_step	integer	yes	イベント終了ステップ。点イベントの場合は start_step と同じ。
+event_type	string	yes	baseline/object/conflict/repair などの元イベント種別。
+timeline_type	string	yes	UIタイムライン用の分類。baseline/nudge/conflict/repair。
+label	string	yes	UIに表示する短いイベント名。
+module_id	string	no	主に発生・設置されたモジュールID。
+participant_ids	string	no	関係agent_id。TSVではセミコロン区切り。
+related_object_id	string	no	関連する善性オブジェクトID。objectイベントでは自身のID。
+related_conflict_id	string	no	repairイベントが修復しているconflict event_id。
+intensity	number	no	イベント強度。0.0〜1.0を想定。
+direction	string	no	状態変化の方向。例: 声かけ許可↑、孤立反応↑。
+description	string	no	イベント背景の自然言語説明。

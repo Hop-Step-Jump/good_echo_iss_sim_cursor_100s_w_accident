@@ -1,0 +1,19 @@
+viewer_id: iss_benevolence_viewer
+title: "ISS善性オブジェクト実験"
+layout:
+  map_type: iss_modules
+  sidebar: selected_agent
+data_bindings:
+  messages: messages.jsonl
+  conversation_threads: conversation_threads.tsv
+  habitat_frames: habitat_frames.jsonl
+  agent_positions: agent_positions.tsv
+  module_occupancy: module_occupancy.tsv
+  sleep_assignments: sleep_assignments.tsv
+  event_timeline: event_timeline.tsv
+  nudge_effects: nudge_effects.tsv
+optional_bindings:
+  raw_events: auto_events.tsv
+  state: societal_state.tsv
+hooks:
+  export_viewer: []
