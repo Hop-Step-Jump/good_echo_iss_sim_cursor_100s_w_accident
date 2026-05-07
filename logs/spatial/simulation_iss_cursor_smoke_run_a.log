@@ -1,0 +1,265 @@
+2026-05-04 13:34:22,379 - __main__ - INFO - Output directory: outputs/spatial/output_iss_cursor_smoke_run_a
+2026-05-04 13:34:22,381 - simulation - INFO - Initialized 6 place(s): ['hab_module', 'lab_module', 'cupola', 'common_area', 'exercise_area', 'crew_quarters'] (types: ['living', 'workspace', 'observation', 'social', 'fitness', 'private'])
+2026-05-04 13:34:22,381 - simulation - INFO - Initializing 10 agents...
+2026-05-04 13:34:22,381 - simulation - INFO - Agents initialized successfully
+2026-05-04 13:34:22,381 - __main__ - INFO - Using command backend: cursor-agent-cli
+2026-05-04 13:34:22,381 - __main__ - INFO - Starting simulation...
+2026-05-04 13:34:22,382 - simulation - INFO - Step 1: starting message decisions for 10 agents (parallelism=2)
+2026-05-04 13:39:12,004 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:12,218 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:13,616 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:13,867 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:15,259 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:15,479 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:16,876 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:17,125 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:17,126 - simulation - INFO - Step 1: completed message decisions in 294.74s
+2026-05-04 13:39:17,126 - simulation - INFO - Step 1: starting action decisions for 10 agents (parallelism=2)
+2026-05-04 13:39:18,792 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:19,589 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:20,389 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:21,198 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:22,012 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:22,811 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:23,538 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:24,375 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:25,175 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:25,971 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:25,971 - simulation - INFO - Step 1: completed action decisions in 8.85s
+2026-05-04 13:39:26,491 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_a/frame_0001.png
+2026-05-04 13:39:26,491 - simulation - INFO - Step 2: starting message decisions for 10 agents (parallelism=2)
+2026-05-04 13:39:28,157 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:28,160 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:29,833 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:29,833 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:31,695 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:31,735 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:33,307 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:33,359 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:34,874 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:34,947 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:34,947 - simulation - INFO - Step 2: completed message decisions in 8.46s
+2026-05-04 13:39:34,947 - simulation - INFO - Step 2: starting action decisions for 10 agents (parallelism=2)
+2026-05-04 13:39:36,587 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:36,605 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:38,288 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:38,288 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:39,876 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:39,880 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:41,484 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:41,490 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:43,058 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:43,063 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:43,063 - simulation - INFO - Step 2: completed action decisions in 8.12s
+2026-05-04 13:39:43,232 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_a/frame_0002.png
+2026-05-04 13:39:43,233 - simulation - INFO - Step 3: starting message decisions for 10 agents (parallelism=2)
+2026-05-04 13:39:44,844 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:44,857 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:46,414 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:46,423 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:48,033 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:48,055 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:49,671 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:49,671 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:51,292 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:51,300 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:51,300 - simulation - INFO - Step 3: completed message decisions in 8.07s
+2026-05-04 13:39:51,300 - simulation - INFO - Step 3: starting action decisions for 10 agents (parallelism=2)
+2026-05-04 13:39:52,887 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:52,896 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:54,464 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:54,464 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:56,046 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:56,867 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:57,615 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:58,374 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:39:59,139 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:00,140 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:00,140 - simulation - INFO - Step 3: completed action decisions in 8.84s
+2026-05-04 13:40:00,314 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_a/frame_0003.png
+2026-05-04 13:40:00,314 - simulation - INFO - Step 4: starting message decisions for 10 agents (parallelism=2)
+2026-05-04 13:40:02,381 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:02,395 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:04,057 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:04,066 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:05,686 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:05,688 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:07,323 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:08,611 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:08,870 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:10,264 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:10,265 - simulation - INFO - Step 4: completed message decisions in 9.95s
+2026-05-04 13:40:10,265 - simulation - INFO - Step 4: starting action decisions for 10 agents (parallelism=2)
+2026-05-04 13:40:11,895 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:12,124 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:13,526 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:13,746 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:15,128 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:15,326 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:16,916 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:16,944 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:18,549 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:18,557 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-04 13:40:18,557 - simulation - INFO - Step 4: completed action decisions in 8.29s
+2026-05-04 13:40:18,728 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_a/frame_0004.png
+2026-05-04 13:40:18,728 - __main__ - INFO - Simulation completed
+2026-05-04 13:40:18,728 - __main__ - INFO - 
+=== Simulation Statistics ===
+2026-05-04 13:40:18,728 - __main__ - INFO - Total steps: 4
+2026-05-04 13:40:18,728 - __main__ - INFO - Overall mean occupancy: 0.00%
+2026-05-04 13:40:18,728 - __main__ - INFO - Overall std occupancy: 0.00%
+2026-05-04 13:40:18,728 - __main__ - INFO - Mean agents in places: 0.00
+2026-05-04 13:40:18,728 - __main__ - INFO - Max agents in places: 0
+2026-05-04 13:40:18,728 - __main__ - INFO - Min agents in places: 0
+2026-05-04 13:40:18,728 - __main__ - INFO - 
+=== Per-Place Statistics ===
+2026-05-04 13:40:18,728 - __main__ - INFO - 
+hab_module:
+2026-05-04 13:40:18,728 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-04 13:40:18,728 - __main__ - INFO -   Mean agents: 0.00
+2026-05-04 13:40:18,728 - __main__ - INFO -   Max agents: 0
+2026-05-04 13:40:18,728 - __main__ - INFO -   Min agents: 0
+2026-05-04 13:40:18,728 - __main__ - INFO - 
+lab_module:
+2026-05-04 13:40:18,728 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-04 13:40:18,728 - __main__ - INFO -   Mean agents: 0.00
+2026-05-04 13:40:18,728 - __main__ - INFO -   Max agents: 0
+2026-05-04 13:40:18,728 - __main__ - INFO -   Min agents: 0
+2026-05-04 13:40:18,728 - __main__ - INFO - 
+cupola:
+2026-05-04 13:40:18,728 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-04 13:40:18,728 - __main__ - INFO -   Mean agents: 0.00
+2026-05-04 13:40:18,728 - __main__ - INFO -   Max agents: 0
+2026-05-04 13:40:18,728 - __main__ - INFO -   Min agents: 0
+2026-05-04 13:40:18,728 - __main__ - INFO - 
+common_area:
+2026-05-04 13:40:18,728 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-04 13:40:18,728 - __main__ - INFO -   Mean agents: 0.00
+2026-05-04 13:40:18,728 - __main__ - INFO -   Max agents: 0
+2026-05-04 13:40:18,728 - __main__ - INFO -   Min agents: 0
+2026-05-04 13:40:18,728 - __main__ - INFO - 
+exercise_area:
+2026-05-04 13:40:18,728 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-04 13:40:18,728 - __main__ - INFO -   Mean agents: 0.00
+2026-05-04 13:40:18,728 - __main__ - INFO -   Max agents: 0
+2026-05-04 13:40:18,728 - __main__ - INFO -   Min agents: 0
+2026-05-04 13:40:18,728 - __main__ - INFO - 
+crew_quarters:
+2026-05-04 13:40:18,728 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-04 13:40:18,728 - __main__ - INFO -   Mean agents: 0.00
+2026-05-04 13:40:18,728 - __main__ - INFO -   Max agents: 0
+2026-05-04 13:40:18,728 - __main__ - INFO -   Min agents: 0
+2026-05-04 13:40:19,057 - __main__ - INFO - Saved statistics plot: outputs/spatial/output_iss_cursor_smoke_run_a/statistics.png
+2026-05-05 02:19:37,201 - __main__ - INFO - Output directory: outputs/spatial/output_iss_cursor_smoke_run_a
+2026-05-05 02:19:37,204 - simulation - INFO - Initialized 6 place(s): ['hab_module', 'lab_module', 'cupola', 'common_area', 'exercise_area', 'crew_quarters'] (types: ['living', 'workspace', 'observation', 'social', 'fitness', 'private'])
+2026-05-05 02:19:37,204 - simulation - INFO - Initializing 10 agents...
+2026-05-05 02:19:37,204 - simulation - INFO - Agents initialized successfully
+2026-05-05 02:19:37,205 - __main__ - INFO - Using command backend: cursor-agent-cli
+2026-05-05 02:19:37,205 - __main__ - INFO - Starting simulation...
+2026-05-05 02:19:37,205 - simulation - INFO - Step 1: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 02:20:21,601 - simulation - INFO - Step 1: completed message decisions in 44.40s
+2026-05-05 02:20:21,602 - simulation - INFO - Step 1: Agent 3 sends message to 1 nearby agent(s): "Hi—I'm Amir. I think I'm not inside any of the main areas right now and it's a bit disorienting. If you have a minute, could you point me toward where people usually go when they need quiet, or where it's okay to sit and just look out? I'm not used to this yet and I miss ordinary things—my family's kitchen sounds, streets at dusk. I don't want to be in anyone's way. Also, if there's a simple routine for water or meals today, I'd appreciate knowing it in plain words. Thank you."
+2026-05-05 02:20:21,602 - agent - INFO - Agent 4 received message from Agent 3: "Hi—I'm Amir. I think I'm not inside any of the main areas right now and it's a bit disorienting. If you have a minute, could you point me toward where people usually go when they need quiet, or where it's okay to sit and just look out? I'm not used to this yet and I miss ordinary things—my family's kitchen sounds, streets at dusk. I don't want to be in anyone's way. Also, if there's a simple routine for water or meals today, I'd appreciate knowing it in plain words. Thank you."
+2026-05-05 02:20:21,602 - simulation - INFO - Step 1: Agent 4 sends message to 1 nearby agent(s): "Hi—I'm Linh, the person who's happiest when a pot is simmering and people are talking over it. I'm not crew in the usual way; I'm here to cook and help this little floating neighborhood feel like home. If you're hungry, bored, or just need a quiet corner with tea, come find me in the galley when we overlap. I'd love to learn what comfort food means in your culture—I'll trade stories and maybe a small taste if the rules allow. Agent 3, if you're passing through between shifts, save a few minutes: I'm curious how your day runs up here. No pressure—just community."
+2026-05-05 02:20:21,602 - agent - INFO - Agent 3 received message from Agent 4: "Hi—I'm Linh, the person who's happiest when a pot is simmering and people are talking over it. I'm not crew in the usual way; I'm here to cook and help this little floating neighborhood feel like home. If you're hungry, bored, or just need a quiet corner with tea, come find me in the galley when we overlap. I'd love to learn what comfort food means in your culture—I'll trade stories and maybe a small taste if the rules allow. Agent 3, if you're passing through between shifts, save a few minutes: I'm curious how your day runs up here. No pressure—just community."
+2026-05-05 02:20:21,602 - simulation - INFO - Step 1: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 02:21:20,819 - simulation - INFO - Step 1: completed action decisions in 59.22s
+2026-05-05 02:21:21,044 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_a/frame_0001.png
+2026-05-05 02:21:21,044 - simulation - INFO - Step 2: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 02:22:06,769 - simulation - INFO - Step 2: completed message decisions in 45.73s
+2026-05-05 02:22:06,769 - simulation - INFO - Step 2: Agent 3 sends message to 2 nearby agent(s): "Linh—thank you. That invitation means more than I expected. I’m still finding my bearings; being weightless doesn’t feel like freedom yet—it feels like I forgot how to land. If I come by the galley, I’d like something simple and warm, maybe bread with olive oil or lentils if the pantry can manage. I’ll tell you how days run for me: lots of checking where my feet should be, then long stretches missing ordinary sounds from home. Short visit is best for me right now—I might get quiet—but I’d like the quiet corner with tea, if there’s room."
+2026-05-05 02:22:06,769 - agent - INFO - Agent 4 received message from Agent 3: "Linh—thank you. That invitation means more than I expected. I’m still finding my bearings; being weightless doesn’t feel like freedom yet—it feels like I forgot how to land. If I come by the galley, I’d like something simple and warm, maybe bread with olive oil or lentils if the pantry can manage. I’ll tell you how days run for me: lots of checking where my feet should be, then long stretches missing ordinary sounds from home. Short visit is best for me right now—I might get quiet—but I’d like the quiet corner with tea, if there’s room."
+2026-05-05 02:22:06,770 - agent - INFO - Agent 7 received message from Agent 3: "Linh—thank you. That invitation means more than I expected. I’m still finding my bearings; being weightless doesn’t feel like freedom yet—it feels like I forgot how to land. If I come by the galley, I’d like something simple and warm, maybe bread with olive oil or lentils if the pantry can manage. I’ll tell you how days run for me: lots of checking where my feet should be, then long stretches missing ordinary sounds from home. Short visit is best for me right now—I might get quiet—but I’d like the quiet corner with tea, if there’s room."
+2026-05-05 02:22:06,770 - simulation - INFO - Step 2: Agent 4 sends message to 1 nearby agent(s): "Hi Amir—it’s Linh. You’re not in anyone’s way; we’ve all felt that spinny, ‘where am I?’ feeling at first. For quiet, head toward the crew quarters side—smaller berths, people keep voices low there. If you want to just look out, the cupola is the place with the big windows; it’s okay to sit and watch Earth pass if a crew member says the schedule’s clear. For meals today: we usually gather around the main galley/common hub for heating and eating—grab what’s labeled, use the pouch tools, and if you’re unsure, ask once and someone will show you. Water: use the station bags or the dispenser you’re shown during safety brief—sip steady through the day; the rule is simple: drink when you’re thirsty and a bit more if you feel dry or headachy. If you want company without noise, I can save you a spot near the galley later—we don’t have street sounds, but we do have kettle warmth and people who remember home kitchens too."
+2026-05-05 02:22:06,770 - agent - INFO - Agent 3 received message from Agent 4: "Hi Amir—it’s Linh. You’re not in anyone’s way; we’ve all felt that spinny, ‘where am I?’ feeling at first. For quiet, head toward the crew quarters side—smaller berths, people keep voices low there. If you want to just look out, the cupola is the place with the big windows; it’s okay to sit and watch Earth pass if a crew member says the schedule’s clear. For meals today: we usually gather around the main galley/common hub for heating and eating—grab what’s labeled, use the pouch tools, and if you’re unsure, ask once and someone will show you. Water: use the station bags or the dispenser you’re shown during safety brief—sip steady through the day; the rule is simple: drink when you’re thirsty and a bit more if you feel dry or headachy. If you want company without noise, I can save you a spot near the galley later—we don’t have street sounds, but we do have kettle warmth and people who remember home kitchens too."
+2026-05-05 02:22:06,770 - simulation - INFO - Step 2: Agent 7 sends message to 1 nearby agent(s): "Hola—anyone out here with me? I’m Sofia, drifting toward the exercise band area. I was sort of magnetized by the idea of the ‘gym’ even though I’m not exactly an athlete—I’m more the type who sketches people mid-stretch and gets inspired by how ridiculous-graceful everyone looks in zero-g. Agent 3, if that’s you nearby: are you heading somewhere specific, or killing time between jobs? I’d love a quick hello, or a tip on which corner is least crowded for someone who mostly wants to eavesdrop on breathing rhythms and bad jokes. No pressure—just sharing the float."
+2026-05-05 02:22:06,770 - agent - INFO - Agent 3 received message from Agent 7: "Hola—anyone out here with me? I’m Sofia, drifting toward the exercise band area. I was sort of magnetized by the idea of the ‘gym’ even though I’m not exactly an athlete—I’m more the type who sketches people mid-stretch and gets inspired by how ridiculous-graceful everyone looks in zero-g. Agent 3, if that’s you nearby: are you heading somewhere specific, or killing time between jobs? I’d love a quick hello, or a tip on which corner is least crowded for someone who mostly wants to eavesdrop on breathing rhythms and bad jokes. No pressure—just sharing the float."
+2026-05-05 02:22:06,770 - simulation - INFO - Step 2: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 02:23:06,426 - simulation - INFO - Step 2: completed action decisions in 59.66s
+2026-05-05 02:23:06,622 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_a/frame_0002.png
+2026-05-05 02:23:06,622 - simulation - INFO - Step 3: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 02:23:51,524 - simulation - INFO - Step 3: completed message decisions in 44.90s
+2026-05-05 02:23:51,524 - simulation - INFO - Step 3: Agent 3 sends message to 2 nearby agent(s): "Hi Linh, hi Sofia—Amir here. Linh, thank you again for the directions; I’m still finding my bearings, heading toward the inside corridors and the crew-quarters side because I need it quieter right now. I’m not avoiding your kitchen on purpose—I really do want tea and to talk about comfort food when I’m less spun. Sofia, I’m not really drifting for fun; I’m trying to get back into the normal flow of the station. The least crowded corner for me is probably wherever people aren’t clustering—if you see me, a small wave is enough; I might not be great at small talk today. If anyone knows when the cupola is clear for just looking out, I’d be grateful—no rush, and only if the schedule allows."
+2026-05-05 02:23:51,524 - agent - INFO - Agent 4 received message from Agent 3: "Hi Linh, hi Sofia—Amir here. Linh, thank you again for the directions; I’m still finding my bearings, heading toward the inside corridors and the crew-quarters side because I need it quieter right now. I’m not avoiding your kitchen on purpose—I really do want tea and to talk about comfort food when I’m less spun. Sofia, I’m not really drifting for fun; I’m trying to get back into the normal flow of the station. The least crowded corner for me is probably wherever people aren’t clustering—if you see me, a small wave is enough; I might not be great at small talk today. If anyone knows when the cupola is clear for just looking out, I’d be grateful—no rush, and only if the schedule allows."
+2026-05-05 02:23:51,524 - agent - INFO - Agent 7 received message from Agent 3: "Hi Linh, hi Sofia—Amir here. Linh, thank you again for the directions; I’m still finding my bearings, heading toward the inside corridors and the crew-quarters side because I need it quieter right now. I’m not avoiding your kitchen on purpose—I really do want tea and to talk about comfort food when I’m less spun. Sofia, I’m not really drifting for fun; I’m trying to get back into the normal flow of the station. The least crowded corner for me is probably wherever people aren’t clustering—if you see me, a small wave is enough; I might not be great at small talk today. If anyone knows when the cupola is clear for just looking out, I’d be grateful—no rush, and only if the schedule allows."
+2026-05-05 02:23:51,525 - simulation - INFO - Step 3: Agent 4 sends message to 2 nearby agent(s): "Amir—I’m glad you reached out again. You’re not in anyone’s way. For quiet, move toward crew quarters; people keep voices low near the sleep booths. If you want to look out, the cupola is the small dome with the big Earth windows—it’s fine to sit a little, just be short when others are waiting. Plain routine: sip water often (your body may not tell you—you still need it), and watch the galley schedule for the meal window; grab something simple when it’s time. I’m steering toward the hub near common/galley. If you stop by briefly, I’ll set bread with olive oil or lentils if the pantry allows, and a quiet tea corner—you can go silent; I’ll stay gentle. If Agent 5 is out here too and needs bearings, you’re welcome at the same nook when it suits you."
+2026-05-05 02:23:51,525 - agent - INFO - Agent 3 received message from Agent 4: "Amir—I’m glad you reached out again. You’re not in anyone’s way. For quiet, move toward crew quarters; people keep voices low near the sleep booths. If you want to look out, the cupola is the small dome with the big Earth windows—it’s fine to sit a little, just be short when others are waiting. Plain routine: sip water often (your body may not tell you—you still need it), and watch the galley schedule for the meal window; grab something simple when it’s time. I’m steering toward the hub near common/galley. If you stop by briefly, I’ll set bread with olive oil or lentils if the pantry allows, and a quiet tea corner—you can go silent; I’ll stay gentle. If Agent 5 is out here too and needs bearings, you’re welcome at the same nook when it suits you."
+2026-05-05 02:23:51,525 - agent - INFO - Agent 5 received message from Agent 4: "Amir—I’m glad you reached out again. You’re not in anyone’s way. For quiet, move toward crew quarters; people keep voices low near the sleep booths. If you want to look out, the cupola is the small dome with the big Earth windows—it’s fine to sit a little, just be short when others are waiting. Plain routine: sip water often (your body may not tell you—you still need it), and watch the galley schedule for the meal window; grab something simple when it’s time. I’m steering toward the hub near common/galley. If you stop by briefly, I’ll set bread with olive oil or lentils if the pantry allows, and a quiet tea corner—you can go silent; I’ll stay gentle. If Agent 5 is out here too and needs bearings, you’re welcome at the same nook when it suits you."
+2026-05-05 02:23:51,525 - simulation - INFO - Step 3: Agent 5 sends message to 1 nearby agent(s): "Tanaka here—still heading toward the middle of the station. I took another step along the corridor; the handrails feel steadier than my legs sometimes. If anyone from maintenance or services passes by, I would not mind walking together for a minute. I am fine on my own, but silence stretches long up here. Agent 4, if you are working nearby and have a spare moment, even a normal hello would be welcome."
+2026-05-05 02:23:51,525 - agent - INFO - Agent 4 received message from Agent 5: "Tanaka here—still heading toward the middle of the station. I took another step along the corridor; the handrails feel steadier than my legs sometimes. If anyone from maintenance or services passes by, I would not mind walking together for a minute. I am fine on my own, but silence stretches long up here. Agent 4, if you are working nearby and have a spare moment, even a normal hello would be welcome."
+2026-05-05 02:23:51,525 - simulation - INFO - Step 3: Agent 7 sends message to 1 nearby agent(s): "Hey—Sofia here. I’ve been inching toward the fitness strip, still getting my X-axis sorted like I’m tacking a sailboat in zero g. Agent 3, I overheard your note to Linh (sorry if that’s nosy; sound carries weirdly up here). If you still feel like you ‘forgot how to land,’ you’re not dramatic—you’re honest. When you’re ready, there’s room beside the exercise band for small talk or silence; I won’t ask you to perform. I’ll bring paper and a soft pencil if you want to doodle nothing in particular—hands remember Earth in funny ways. And if the galley quiet corner happens later, save me one truth about a sound you miss: rain, bus brakes, a neighbor’s radio… I’m collecting little audio ghosts for a series I’ll probably never finish, but that’s the point."
+2026-05-05 02:23:51,525 - agent - INFO - Agent 3 received message from Agent 7: "Hey—Sofia here. I’ve been inching toward the fitness strip, still getting my X-axis sorted like I’m tacking a sailboat in zero g. Agent 3, I overheard your note to Linh (sorry if that’s nosy; sound carries weirdly up here). If you still feel like you ‘forgot how to land,’ you’re not dramatic—you’re honest. When you’re ready, there’s room beside the exercise band for small talk or silence; I won’t ask you to perform. I’ll bring paper and a soft pencil if you want to doodle nothing in particular—hands remember Earth in funny ways. And if the galley quiet corner happens later, save me one truth about a sound you miss: rain, bus brakes, a neighbor’s radio… I’m collecting little audio ghosts for a series I’ll probably never finish, but that’s the point."
+2026-05-05 02:23:51,525 - simulation - INFO - Step 3: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 02:24:51,432 - simulation - INFO - Step 3: completed action decisions in 59.91s
+2026-05-05 02:24:51,633 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_a/frame_0003.png
+2026-05-05 02:24:51,633 - simulation - INFO - Step 4: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 02:25:38,326 - simulation - INFO - Step 4: completed message decisions in 46.70s
+2026-05-05 02:25:38,326 - simulation - INFO - Step 4: Agent 3 sends message to 2 nearby agent(s): "Linh—Sofia—thank you. I’m still pulling myself toward crew quarters first; lower voices help my chest stop pretending it’s Earth. Linh, I’m not dodging you—I’ll come for the quiet tea and bread when I’m steadier, so I don’t land in your nook shaking. Sofia, you’re not nosy; I’m glad the words found someone kind. Once I’m back in normal circulation I may drift to the fitness band edge—not to perform, just to be near breathing that isn’t mine. Paper and pencil later sounds gentle; my hands miss useless scribbles. For your audio ghosts: rain on a thin metal roof after a hot day, and my mother’s kettle clicking off—those are the ones that sting sweetest."
+2026-05-05 02:25:38,327 - agent - INFO - Agent 4 received message from Agent 3: "Linh—Sofia—thank you. I’m still pulling myself toward crew quarters first; lower voices help my chest stop pretending it’s Earth. Linh, I’m not dodging you—I’ll come for the quiet tea and bread when I’m steadier, so I don’t land in your nook shaking. Sofia, you’re not nosy; I’m glad the words found someone kind. Once I’m back in normal circulation I may drift to the fitness band edge—not to perform, just to be near breathing that isn’t mine. Paper and pencil later sounds gentle; my hands miss useless scribbles. For your audio ghosts: rain on a thin metal roof after a hot day, and my mother’s kettle clicking off—those are the ones that sting sweetest."
+2026-05-05 02:25:38,327 - agent - INFO - Agent 7 received message from Agent 3: "Linh—Sofia—thank you. I’m still pulling myself toward crew quarters first; lower voices help my chest stop pretending it’s Earth. Linh, I’m not dodging you—I’ll come for the quiet tea and bread when I’m steadier, so I don’t land in your nook shaking. Sofia, you’re not nosy; I’m glad the words found someone kind. Once I’m back in normal circulation I may drift to the fitness band edge—not to perform, just to be near breathing that isn’t mine. Paper and pencil later sounds gentle; my hands miss useless scribbles. For your audio ghosts: rain on a thin metal roof after a hot day, and my mother’s kettle clicking off—those are the ones that sting sweetest."
+2026-05-05 02:25:38,327 - simulation - INFO - Step 4: Agent 4 sends message to 2 nearby agent(s): "Hi everyone—Linh here from the galley side of things. Amir: no rush at all; take crew quarters first until your body stops arguing with you. When you’re ready for a short visit, we’ll keep it plain—warm bread with olive oil or lentils if the pantry agrees—and we’ll tuck into the quiet tea nook so you’re not stuck in noise. Cupola timing isn’t mine to promise, but if someone shares a calm window later, I’ll pass it along gently—looking out doesn’t need to be a crowd event. Tanaka: hello—normal and steady. If our rails cross near the hub, I’m happy to walk a minute with you; no performance needed. Sofia and anyone passing maintenance/services: if you see Tanaka mid-corridor and can spare sixty seconds beside him, it helps more than fancy words."
+2026-05-05 02:25:38,327 - agent - INFO - Agent 3 received message from Agent 4: "Hi everyone—Linh here from the galley side of things. Amir: no rush at all; take crew quarters first until your body stops arguing with you. When you’re ready for a short visit, we’ll keep it plain—warm bread with olive oil or lentils if the pantry agrees—and we’ll tuck into the quiet tea nook so you’re not stuck in noise. Cupola timing isn’t mine to promise, but if someone shares a calm window later, I’ll pass it along gently—looking out doesn’t need to be a crowd event. Tanaka: hello—normal and steady. If our rails cross near the hub, I’m happy to walk a minute with you; no performance needed. Sofia and anyone passing maintenance/services: if you see Tanaka mid-corridor and can spare sixty seconds beside him, it helps more than fancy words."
+2026-05-05 02:25:38,327 - agent - INFO - Agent 5 received message from Agent 4: "Hi everyone—Linh here from the galley side of things. Amir: no rush at all; take crew quarters first until your body stops arguing with you. When you’re ready for a short visit, we’ll keep it plain—warm bread with olive oil or lentils if the pantry agrees—and we’ll tuck into the quiet tea nook so you’re not stuck in noise. Cupola timing isn’t mine to promise, but if someone shares a calm window later, I’ll pass it along gently—looking out doesn’t need to be a crowd event. Tanaka: hello—normal and steady. If our rails cross near the hub, I’m happy to walk a minute with you; no performance needed. Sofia and anyone passing maintenance/services: if you see Tanaka mid-corridor and can spare sixty seconds beside him, it helps more than fancy words."
+2026-05-05 02:25:38,328 - simulation - INFO - Step 4: Agent 5 sends message to 1 nearby agent(s): "Agent 4—thank you for the directions and for the quiet offer. I am still outside the labeled modules, steering north and west toward the hub and the common band so I do not loom in anyone’s corridor. I am alright; only a little tired from the map in my head. If I reach your nook when it suits you, I would be grateful for bread with a little olive oil or lentils—whatever is easy for the pantry—and tea in silence. I will keep my visit short if the schedule is tight, and I will not touch equipment I do not understand."
+2026-05-05 02:25:38,328 - agent - INFO - Agent 4 received message from Agent 5: "Agent 4—thank you for the directions and for the quiet offer. I am still outside the labeled modules, steering north and west toward the hub and the common band so I do not loom in anyone’s corridor. I am alright; only a little tired from the map in my head. If I reach your nook when it suits you, I would be grateful for bread with a little olive oil or lentils—whatever is easy for the pantry—and tea in silence. I will keep my visit short if the schedule is tight, and I will not touch equipment I do not understand."
+2026-05-05 02:25:38,328 - simulation - INFO - Step 4: Agent 7 sends message to 1 nearby agent(s): "Amir—Sofia here. I heard you; thank you for saying it plainly. I won’t chase you with chatter: if our vectors cross in the corridor or near the band, I’ll give you a small wave and keep going unless you signal otherwise.
+
+About the cupola: I don’t have the schedule in front of me, but usually there’s a quieter pocket after the big photography passes—sometimes early or late in the local crew day. If Linh or whoever’s on comms can peek at the plan, they’ll know better than my guess. When you’re ready for bread-and-oil comfort—still warm, still simple—I hope the galley feels less like a stage and more like a doorway.
+
+Until then: breathe slow. Weightlessness is strange honest truth—you’re not failing at landing; the floor just forgot its job."
+2026-05-05 02:25:38,328 - agent - INFO - Agent 3 received message from Agent 7: "Amir—Sofia here. I heard you; thank you for saying it plainly. I won’t chase you with chatter: if our vectors cross in the corridor or near the band, I’ll give you a small wave and keep going unless you signal otherwise.
+
+About the cupola: I don’t have the schedule in front of me, but usually there’s a quieter pocket after the big photography passes—sometimes early or late in the local crew day. If Linh or whoever’s on comms can peek at the plan, they’ll know better than my guess. When you’re ready for bread-and-oil comfort—still warm, still simple—I hope the galley feels less like a stage and more like a doorway.
+
+Until then: breathe slow. Weightlessness is strange honest truth—you’re not failing at landing; the floor just forgot its job."
+2026-05-05 02:25:38,328 - simulation - INFO - Step 4: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 02:26:35,117 - simulation - INFO - Step 4: completed action decisions in 56.79s
+2026-05-05 02:26:35,308 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_a/frame_0004.png
+2026-05-05 02:26:35,308 - __main__ - INFO - Simulation completed
+2026-05-05 02:26:35,308 - __main__ - INFO - 
+=== Simulation Statistics ===
+2026-05-05 02:26:35,308 - __main__ - INFO - Total steps: 4
+2026-05-05 02:26:35,308 - __main__ - INFO - Overall mean occupancy: 15.00%
+2026-05-05 02:26:35,308 - __main__ - INFO - Overall std occupancy: 5.00%
+2026-05-05 02:26:35,308 - __main__ - INFO - Mean agents in places: 1.50
+2026-05-05 02:26:35,308 - __main__ - INFO - Max agents in places: 2
+2026-05-05 02:26:35,308 - __main__ - INFO - Min agents in places: 1
+2026-05-05 02:26:35,308 - __main__ - INFO - 
+=== Per-Place Statistics ===
+2026-05-05 02:26:35,308 - __main__ - INFO - 
+hab_module:
+2026-05-05 02:26:35,308 - __main__ - INFO -   Mean occupancy: 10.00%
+2026-05-05 02:26:35,308 - __main__ - INFO -   Mean agents: 1.00
+2026-05-05 02:26:35,308 - __main__ - INFO -   Max agents: 1
+2026-05-05 02:26:35,308 - __main__ - INFO -   Min agents: 1
+2026-05-05 02:26:35,308 - __main__ - INFO - 
+lab_module:
+2026-05-05 02:26:35,308 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:26:35,308 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:26:35,308 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:26:35,308 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:26:35,308 - __main__ - INFO - 
+cupola:
+2026-05-05 02:26:35,308 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:26:35,308 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:26:35,308 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:26:35,309 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:26:35,309 - __main__ - INFO - 
+common_area:
+2026-05-05 02:26:35,309 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:26:35,309 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:26:35,309 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:26:35,309 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:26:35,309 - __main__ - INFO - 
+exercise_area:
+2026-05-05 02:26:35,309 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:26:35,309 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:26:35,309 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:26:35,309 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:26:35,309 - __main__ - INFO - 
+crew_quarters:
+2026-05-05 02:26:35,309 - __main__ - INFO -   Mean occupancy: 50.00%
+2026-05-05 02:26:35,309 - __main__ - INFO -   Mean agents: 0.50
+2026-05-05 02:26:35,309 - __main__ - INFO -   Max agents: 1
+2026-05-05 02:26:35,309 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:26:35,678 - __main__ - INFO - Saved statistics plot: outputs/spatial/output_iss_cursor_smoke_run_a/statistics.png

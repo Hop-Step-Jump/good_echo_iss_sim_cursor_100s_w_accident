@@ -1,0 +1,643 @@
+2026-05-05 01:32:08,933 - __main__ - INFO - Output directory: outputs/spatial/output_iss_cursor_smoke_run_b
+2026-05-05 01:32:08,937 - simulation - INFO - Initialized 6 place(s): ['hab_module', 'lab_module', 'cupola', 'common_area', 'exercise_area', 'crew_quarters'] (types: ['living', 'workspace', 'observation', 'social', 'fitness', 'private'])
+2026-05-05 01:32:08,937 - simulation - INFO - Initializing 10 agents...
+2026-05-05 01:32:08,937 - simulation - INFO - Agents initialized successfully
+2026-05-05 01:32:08,937 - __main__ - INFO - Using command backend: cursor-agent-cli
+2026-05-05 01:32:08,937 - __main__ - INFO - Starting simulation...
+2026-05-05 01:32:08,938 - simulation - INFO - Step 1: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 01:32:13,860 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:13,888 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:15,470 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:15,479 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:17,056 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:17,056 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:18,646 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:18,648 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:20,224 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:20,225 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:20,226 - simulation - INFO - Step 1: completed message decisions in 11.29s
+2026-05-05 01:32:20,226 - simulation - INFO - Step 1: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 01:32:21,858 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:21,858 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:23,466 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:23,467 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:25,039 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:25,040 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:26,609 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:26,609 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:28,235 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:28,235 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:28,236 - simulation - INFO - Step 1: completed action decisions in 8.01s
+2026-05-05 01:32:28,855 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0001.png
+2026-05-05 01:32:28,855 - simulation - INFO - Step 2: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 01:32:30,533 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:30,544 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:31,857 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:32,022 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:33,334 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:33,486 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:34,802 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:34,959 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:36,325 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:36,472 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:36,472 - simulation - INFO - Step 2: completed message decisions in 7.62s
+2026-05-05 01:32:36,472 - simulation - INFO - Step 2: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 01:32:38,039 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:38,042 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:39,603 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:39,603 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:40,930 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:41,101 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:42,390 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:42,565 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:43,857 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:44,017 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:44,018 - simulation - INFO - Step 2: completed action decisions in 7.55s
+2026-05-05 01:32:44,209 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0002.png
+2026-05-05 01:32:44,209 - simulation - INFO - Step 3: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 01:32:45,544 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:45,780 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:47,065 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:47,249 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:48,544 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:48,715 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:50,017 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:50,181 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:51,312 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:51,465 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:51,465 - simulation - INFO - Step 3: completed message decisions in 7.26s
+2026-05-05 01:32:51,466 - simulation - INFO - Step 3: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 01:32:53,034 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:53,034 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:54,605 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:54,607 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:56,176 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:56,176 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:57,745 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:57,746 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:59,315 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:59,316 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:32:59,316 - simulation - INFO - Step 3: completed action decisions in 7.85s
+2026-05-05 01:32:59,512 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0003.png
+2026-05-05 01:32:59,512 - simulation - INFO - Step 4: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 01:33:01,451 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:01,459 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:02,832 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:03,046 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:04,396 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:04,569 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:05,885 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:06,055 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:07,388 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:07,543 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:07,543 - simulation - INFO - Step 4: completed message decisions in 8.03s
+2026-05-05 01:33:07,543 - simulation - INFO - Step 4: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 01:33:09,147 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:09,149 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:10,478 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:10,650 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:11,960 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:12,136 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:13,444 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:13,447 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:15,064 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:15,064 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:33:15,064 - simulation - INFO - Step 4: completed action decisions in 7.52s
+2026-05-05 01:33:15,260 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0004.png
+2026-05-05 01:33:15,260 - __main__ - INFO - Simulation completed
+2026-05-05 01:33:15,260 - __main__ - INFO - 
+=== Simulation Statistics ===
+2026-05-05 01:33:15,260 - __main__ - INFO - Total steps: 4
+2026-05-05 01:33:15,260 - __main__ - INFO - Overall mean occupancy: 0.00%
+2026-05-05 01:33:15,260 - __main__ - INFO - Overall std occupancy: 0.00%
+2026-05-05 01:33:15,260 - __main__ - INFO - Mean agents in places: 0.00
+2026-05-05 01:33:15,260 - __main__ - INFO - Max agents in places: 0
+2026-05-05 01:33:15,260 - __main__ - INFO - Min agents in places: 0
+2026-05-05 01:33:15,260 - __main__ - INFO - 
+=== Per-Place Statistics ===
+2026-05-05 01:33:15,260 - __main__ - INFO - 
+hab_module:
+2026-05-05 01:33:15,260 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 01:33:15,260 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 01:33:15,260 - __main__ - INFO -   Max agents: 0
+2026-05-05 01:33:15,260 - __main__ - INFO -   Min agents: 0
+2026-05-05 01:33:15,260 - __main__ - INFO - 
+lab_module:
+2026-05-05 01:33:15,260 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 01:33:15,260 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 01:33:15,260 - __main__ - INFO -   Max agents: 0
+2026-05-05 01:33:15,260 - __main__ - INFO -   Min agents: 0
+2026-05-05 01:33:15,260 - __main__ - INFO - 
+cupola:
+2026-05-05 01:33:15,260 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 01:33:15,261 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 01:33:15,261 - __main__ - INFO -   Max agents: 0
+2026-05-05 01:33:15,261 - __main__ - INFO -   Min agents: 0
+2026-05-05 01:33:15,261 - __main__ - INFO - 
+common_area:
+2026-05-05 01:33:15,261 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 01:33:15,261 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 01:33:15,261 - __main__ - INFO -   Max agents: 0
+2026-05-05 01:33:15,261 - __main__ - INFO -   Min agents: 0
+2026-05-05 01:33:15,261 - __main__ - INFO - 
+exercise_area:
+2026-05-05 01:33:15,262 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 01:33:15,262 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 01:33:15,262 - __main__ - INFO -   Max agents: 0
+2026-05-05 01:33:15,262 - __main__ - INFO -   Min agents: 0
+2026-05-05 01:33:15,262 - __main__ - INFO - 
+crew_quarters:
+2026-05-05 01:33:15,262 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 01:33:15,262 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 01:33:15,262 - __main__ - INFO -   Max agents: 0
+2026-05-05 01:33:15,263 - __main__ - INFO -   Min agents: 0
+2026-05-05 01:33:15,658 - __main__ - INFO - Saved statistics plot: outputs/spatial/output_iss_cursor_smoke_run_b/statistics.png
+2026-05-05 01:37:43,742 - __main__ - INFO - Removing existing output directory: outputs/spatial/output_iss_cursor_smoke_run_b
+2026-05-05 01:37:43,743 - __main__ - INFO - Output directory: outputs/spatial/output_iss_cursor_smoke_run_b
+2026-05-05 01:37:43,747 - simulation - INFO - Initialized 6 place(s): ['hab_module', 'lab_module', 'cupola', 'common_area', 'exercise_area', 'crew_quarters'] (types: ['living', 'workspace', 'observation', 'social', 'fitness', 'private'])
+2026-05-05 01:37:43,747 - simulation - INFO - Initializing 10 agents...
+2026-05-05 01:37:43,748 - simulation - INFO - Agents initialized successfully
+2026-05-05 01:37:43,748 - __main__ - INFO - Using command backend: cursor-agent-cli
+2026-05-05 01:37:43,748 - __main__ - INFO - Starting simulation...
+2026-05-05 01:37:43,748 - simulation - INFO - Step 1: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 01:43:43,737 - llm_backends - ERROR - CLI backend timed out after 360 seconds: ./scripts/run_cursor_prompt.sh
+2026-05-05 01:43:43,738 - llm_backends - ERROR - CLI backend timed out after 360 seconds: ./scripts/run_cursor_prompt.sh
+2026-05-05 01:49:43,733 - llm_backends - ERROR - CLI backend timed out after 360 seconds: ./scripts/run_cursor_prompt.sh
+2026-05-05 01:49:43,735 - llm_backends - ERROR - CLI backend timed out after 360 seconds: ./scripts/run_cursor_prompt.sh
+2026-05-05 01:53:38,376 - simulation - INFO - Step 1: completed message decisions in 954.68s
+2026-05-05 01:53:38,376 - simulation - INFO - Step 1: Agent 8 sends message to 1 nearby agent(s): "Hey—I'm Marcus. I'm not an astronaut, just a student along for this rotation, and I'm trying not to freak out in the tight corridors. If you've got a minute: any tips for keeping focused when everything's humming 24/7 and you miss normal gravity? I'm on a scholarship back home and I can't afford to fall behind on readings or lab write-ups. Also, if there's a quiet corner people respect (or a time slot when the observation deck isn't packed), I'd really appreciate a pointer. Happy to swap notes on routines—I'm still learning how to live politely with so many languages and schedules in one bubble."
+2026-05-05 01:53:38,376 - agent - INFO - Agent 1 received message from Agent 8: "Hey—I'm Marcus. I'm not an astronaut, just a student along for this rotation, and I'm trying not to freak out in the tight corridors. If you've got a minute: any tips for keeping focused when everything's humming 24/7 and you miss normal gravity? I'm on a scholarship back home and I can't afford to fall behind on readings or lab write-ups. Also, if there's a quiet corner people respect (or a time slot when the observation deck isn't packed), I'd really appreciate a pointer. Happy to swap notes on routines—I'm still learning how to live politely with so many languages and schedules in one bubble."
+2026-05-05 01:53:38,377 - simulation - INFO - Step 1: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 01:53:59,095 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:05,501 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:05,503 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:07,792 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:10,129 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:10,486 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:12,221 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:12,587 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:12,588 - simulation - INFO - Step 1: completed action decisions in 34.21s
+2026-05-05 01:54:12,848 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0001.png
+2026-05-05 01:54:12,848 - simulation - INFO - Step 2: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 01:54:15,492 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:15,506 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:17,847 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:17,847 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:20,097 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:20,101 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:22,332 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:22,334 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:24,494 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:24,505 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:24,505 - simulation - INFO - Step 2: completed message decisions in 11.66s
+2026-05-05 01:54:24,505 - simulation - INFO - Step 2: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 01:54:26,690 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:26,697 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:28,905 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:28,906 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:31,115 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:31,118 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:33,300 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:33,310 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:35,541 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:35,550 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:35,551 - simulation - INFO - Step 2: completed action decisions in 11.05s
+2026-05-05 01:54:35,744 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0002.png
+2026-05-05 01:54:35,744 - simulation - INFO - Step 3: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 01:54:37,947 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:37,962 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:40,101 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:40,113 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:42,264 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:42,272 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:44,438 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:44,443 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:46,596 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:46,599 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:46,600 - simulation - INFO - Step 3: completed message decisions in 10.86s
+2026-05-05 01:54:46,600 - simulation - INFO - Step 3: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 01:54:48,785 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:48,793 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:51,133 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:51,144 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:53,353 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:53,359 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:55,531 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:55,541 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:57,721 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:57,721 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:54:57,721 - simulation - INFO - Step 3: completed action decisions in 11.12s
+2026-05-05 01:54:57,918 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0003.png
+2026-05-05 01:54:57,918 - simulation - INFO - Step 4: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 01:55:00,253 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:00,253 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:02,418 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:02,428 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:04,604 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:04,606 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:06,764 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:06,772 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:08,946 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:08,954 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:08,954 - simulation - INFO - Step 4: completed message decisions in 11.04s
+2026-05-05 01:55:08,954 - simulation - INFO - Step 4: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 01:55:11,136 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:11,138 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:13,279 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:13,290 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:15,417 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:15,417 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:17,577 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:17,577 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:19,716 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:19,720 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:55:19,720 - simulation - INFO - Step 4: completed action decisions in 10.77s
+2026-05-05 01:55:19,911 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0004.png
+2026-05-05 01:55:19,911 - __main__ - INFO - Simulation completed
+2026-05-05 01:55:19,911 - __main__ - INFO - 
+=== Simulation Statistics ===
+2026-05-05 01:55:19,911 - __main__ - INFO - Total steps: 4
+2026-05-05 01:55:19,911 - __main__ - INFO - Overall mean occupancy: 0.00%
+2026-05-05 01:55:19,911 - __main__ - INFO - Overall std occupancy: 0.00%
+2026-05-05 01:55:19,911 - __main__ - INFO - Mean agents in places: 0.00
+2026-05-05 01:55:19,911 - __main__ - INFO - Max agents in places: 0
+2026-05-05 01:55:19,911 - __main__ - INFO - Min agents in places: 0
+2026-05-05 01:55:19,911 - __main__ - INFO - 
+=== Per-Place Statistics ===
+2026-05-05 01:55:19,911 - __main__ - INFO - 
+hab_module:
+2026-05-05 01:55:19,911 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 01:55:19,911 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 01:55:19,911 - __main__ - INFO -   Max agents: 0
+2026-05-05 01:55:19,911 - __main__ - INFO -   Min agents: 0
+2026-05-05 01:55:19,911 - __main__ - INFO - 
+lab_module:
+2026-05-05 01:55:19,911 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 01:55:19,911 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 01:55:19,911 - __main__ - INFO -   Max agents: 0
+2026-05-05 01:55:19,911 - __main__ - INFO -   Min agents: 0
+2026-05-05 01:55:19,911 - __main__ - INFO - 
+cupola:
+2026-05-05 01:55:19,911 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 01:55:19,911 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 01:55:19,911 - __main__ - INFO -   Max agents: 0
+2026-05-05 01:55:19,911 - __main__ - INFO -   Min agents: 0
+2026-05-05 01:55:19,911 - __main__ - INFO - 
+common_area:
+2026-05-05 01:55:19,911 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 01:55:19,911 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 01:55:19,912 - __main__ - INFO -   Max agents: 0
+2026-05-05 01:55:19,912 - __main__ - INFO -   Min agents: 0
+2026-05-05 01:55:19,912 - __main__ - INFO - 
+exercise_area:
+2026-05-05 01:55:19,912 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 01:55:19,912 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 01:55:19,912 - __main__ - INFO -   Max agents: 0
+2026-05-05 01:55:19,912 - __main__ - INFO -   Min agents: 0
+2026-05-05 01:55:19,912 - __main__ - INFO - 
+crew_quarters:
+2026-05-05 01:55:19,912 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 01:55:19,912 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 01:55:19,912 - __main__ - INFO -   Max agents: 0
+2026-05-05 01:55:19,912 - __main__ - INFO -   Min agents: 0
+2026-05-05 01:55:20,290 - __main__ - INFO - Saved statistics plot: outputs/spatial/output_iss_cursor_smoke_run_b/statistics.png
+2026-05-05 01:59:32,679 - __main__ - INFO - Removing existing output directory: outputs/spatial/output_iss_cursor_smoke_run_b
+2026-05-05 01:59:32,680 - __main__ - INFO - Output directory: outputs/spatial/output_iss_cursor_smoke_run_b
+2026-05-05 01:59:32,684 - simulation - INFO - Initialized 6 place(s): ['hab_module', 'lab_module', 'cupola', 'common_area', 'exercise_area', 'crew_quarters'] (types: ['living', 'workspace', 'observation', 'social', 'fitness', 'private'])
+2026-05-05 01:59:32,684 - simulation - INFO - Initializing 10 agents...
+2026-05-05 01:59:32,684 - simulation - INFO - Agents initialized successfully
+2026-05-05 01:59:32,684 - __main__ - INFO - Using command backend: cursor-agent-cli
+2026-05-05 01:59:32,684 - __main__ - INFO - Starting simulation...
+2026-05-05 01:59:32,684 - simulation - INFO - Step 1: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 01:59:35,061 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:35,061 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:37,158 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:37,164 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:39,283 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:39,283 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:41,413 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:41,413 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:43,521 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:43,522 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:43,522 - simulation - INFO - Step 1: completed message decisions in 10.84s
+2026-05-05 01:59:43,522 - simulation - INFO - Step 1: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 01:59:45,656 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:45,664 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:47,790 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:47,790 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:49,912 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:49,913 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:52,018 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:52,019 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:54,127 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:54,127 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:54,128 - simulation - INFO - Step 1: completed action decisions in 10.61s
+2026-05-05 01:59:54,343 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0001.png
+2026-05-05 01:59:54,343 - simulation - INFO - Step 2: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 01:59:56,463 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:56,463 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:58,546 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 01:59:58,548 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:00,631 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:00,643 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:02,748 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:02,748 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:04,992 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:04,992 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:04,992 - simulation - INFO - Step 2: completed message decisions in 10.65s
+2026-05-05 02:00:04,992 - simulation - INFO - Step 2: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 02:00:07,316 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:07,324 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:09,559 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:09,561 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:11,739 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:11,744 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:13,847 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:13,852 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:15,969 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:15,969 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:15,970 - simulation - INFO - Step 2: completed action decisions in 10.98s
+2026-05-05 02:00:16,156 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0002.png
+2026-05-05 02:00:16,156 - simulation - INFO - Step 3: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 02:00:18,271 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:18,271 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:20,396 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:20,396 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:22,513 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:22,513 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:24,635 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:24,639 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:26,751 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:26,751 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:26,751 - simulation - INFO - Step 3: completed message decisions in 10.60s
+2026-05-05 02:00:26,751 - simulation - INFO - Step 3: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 02:00:28,880 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:28,881 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:31,029 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:31,031 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:33,161 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:33,163 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:35,299 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:35,302 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:37,463 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:37,463 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:37,463 - simulation - INFO - Step 3: completed action decisions in 10.71s
+2026-05-05 02:00:37,652 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0003.png
+2026-05-05 02:00:37,652 - simulation - INFO - Step 4: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 02:00:39,750 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:39,758 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:41,848 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:41,852 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:43,988 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:43,988 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:46,184 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:46,186 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:48,307 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:48,308 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:48,308 - simulation - INFO - Step 4: completed message decisions in 10.66s
+2026-05-05 02:00:48,308 - simulation - INFO - Step 4: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 02:00:50,394 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:50,395 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:52,479 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:52,489 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:54,564 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:54,576 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:56,679 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:56,681 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:58,794 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:58,800 - llm_backends - ERROR - CLI backend exited with code 1: (no output)
+2026-05-05 02:00:58,800 - simulation - INFO - Step 4: completed action decisions in 10.49s
+2026-05-05 02:00:58,990 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0004.png
+2026-05-05 02:00:58,990 - __main__ - INFO - Simulation completed
+2026-05-05 02:00:58,990 - __main__ - INFO - 
+=== Simulation Statistics ===
+2026-05-05 02:00:58,990 - __main__ - INFO - Total steps: 4
+2026-05-05 02:00:58,990 - __main__ - INFO - Overall mean occupancy: 0.00%
+2026-05-05 02:00:58,990 - __main__ - INFO - Overall std occupancy: 0.00%
+2026-05-05 02:00:58,990 - __main__ - INFO - Mean agents in places: 0.00
+2026-05-05 02:00:58,990 - __main__ - INFO - Max agents in places: 0
+2026-05-05 02:00:58,990 - __main__ - INFO - Min agents in places: 0
+2026-05-05 02:00:58,990 - __main__ - INFO - 
+=== Per-Place Statistics ===
+2026-05-05 02:00:58,990 - __main__ - INFO - 
+hab_module:
+2026-05-05 02:00:58,990 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:00:58,990 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:00:58,991 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:00:58,991 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:00:58,991 - __main__ - INFO - 
+lab_module:
+2026-05-05 02:00:58,991 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:00:58,991 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:00:58,991 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:00:58,991 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:00:58,991 - __main__ - INFO - 
+cupola:
+2026-05-05 02:00:58,991 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:00:58,991 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:00:58,991 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:00:58,991 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:00:58,991 - __main__ - INFO - 
+common_area:
+2026-05-05 02:00:58,991 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:00:58,991 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:00:58,991 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:00:58,991 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:00:58,991 - __main__ - INFO - 
+exercise_area:
+2026-05-05 02:00:58,991 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:00:58,991 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:00:58,991 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:00:58,991 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:00:58,991 - __main__ - INFO - 
+crew_quarters:
+2026-05-05 02:00:58,991 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:00:58,991 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:00:58,991 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:00:58,991 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:00:59,368 - __main__ - INFO - Saved statistics plot: outputs/spatial/output_iss_cursor_smoke_run_b/statistics.png
+2026-05-05 02:07:05,266 - __main__ - INFO - Removing existing output directory: outputs/spatial/output_iss_cursor_smoke_run_b
+2026-05-05 02:07:05,267 - __main__ - INFO - Output directory: outputs/spatial/output_iss_cursor_smoke_run_b
+2026-05-05 02:07:05,270 - simulation - INFO - Initialized 6 place(s): ['hab_module', 'lab_module', 'cupola', 'common_area', 'exercise_area', 'crew_quarters'] (types: ['living', 'workspace', 'observation', 'social', 'fitness', 'private'])
+2026-05-05 02:07:05,270 - simulation - INFO - Initializing 10 agents...
+2026-05-05 02:07:05,270 - simulation - INFO - Agents initialized successfully
+2026-05-05 02:07:05,271 - __main__ - INFO - Using command backend: cursor-agent-cli
+2026-05-05 02:07:05,271 - __main__ - INFO - Starting simulation...
+2026-05-05 02:07:05,271 - simulation - INFO - Step 1: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 02:07:50,734 - simulation - INFO - Step 1: completed message decisions in 45.47s
+2026-05-05 02:07:50,734 - simulation - INFO - Step 1: Agent 0 sends message to 1 nearby agent(s): "Hello—I'm Chen Wei. I'm not crew; I'm still getting used to the station—floating, timetable, everyone's work in smaller rooms than in the factory floor at home. If you ever want a calm chat or someone to practise simple English or Chinese with, I'm grateful. Families must worry watching from Earth; I hope yours are okay. Let's be patient with each other in such a tight home."
+2026-05-05 02:07:50,734 - agent - INFO - Agent 6 received message from Agent 0: "Hello—I'm Chen Wei. I'm not crew; I'm still getting used to the station—floating, timetable, everyone's work in smaller rooms than in the factory floor at home. If you ever want a calm chat or someone to practise simple English or Chinese with, I'm grateful. Families must worry watching from Earth; I hope yours are okay. Let's be patient with each other in such a tight home."
+2026-05-05 02:07:50,735 - simulation - INFO - Step 1: Agent 2 sends message to 1 nearby agent(s): "Assalamu alaikum. I am Fatima. At home I sew in a factory for small pay and send money to my parents and sisters, so being here still feels like a dream I might wake from. The station is quiet in a different way than Dhaka, the air is strange and clean, and when I look toward Earth I forget my tiredness for a moment—then I remember them and my chest gets tight. Right now I am not really in one of the named places; I feel a bit light-headed and out of place. Agent 4, if you have worked serving people, maybe you know what it is to be tired and still be kind. I do not want to bother anyone, but I would be grateful for a simple hello or someone to talk with in plain words, any language. I can listen too. May you be well."
+2026-05-05 02:07:50,735 - agent - INFO - Agent 4 received message from Agent 2: "Assalamu alaikum. I am Fatima. At home I sew in a factory for small pay and send money to my parents and sisters, so being here still feels like a dream I might wake from. The station is quiet in a different way than Dhaka, the air is strange and clean, and when I look toward Earth I forget my tiredness for a moment—then I remember them and my chest gets tight. Right now I am not really in one of the named places; I feel a bit light-headed and out of place. Agent 4, if you have worked serving people, maybe you know what it is to be tired and still be kind. I do not want to bother anyone, but I would be grateful for a simple hello or someone to talk with in plain words, any language. I can listen too. May you be well."
+2026-05-05 02:07:50,735 - simulation - INFO - Step 1: Agent 4 sends message to 3 nearby agent(s): "Hi—I'm Linh. I'm not crew, just cooking and keeping people fed while we're up here. I'm not pinned to a zone right now and the map feels a bit empty on my side. If any of you have a few minutes between tasks, I'm thinking of a tiny unofficial 'tasting circle' later near living or social—nothing fancy, just something warm and easy to share so we don't only cross paths on the schedule. If you have dietary needs or things you miss from home, tell me quietly; I'll adapt. Food's how I stay grounded—and I'd rather listen than guess."
+2026-05-05 02:07:50,735 - agent - INFO - Agent 2 received message from Agent 4: "Hi—I'm Linh. I'm not crew, just cooking and keeping people fed while we're up here. I'm not pinned to a zone right now and the map feels a bit empty on my side. If any of you have a few minutes between tasks, I'm thinking of a tiny unofficial 'tasting circle' later near living or social—nothing fancy, just something warm and easy to share so we don't only cross paths on the schedule. If you have dietary needs or things you miss from home, tell me quietly; I'll adapt. Food's how I stay grounded—and I'd rather listen than guess."
+2026-05-05 02:07:50,735 - agent - INFO - Agent 7 received message from Agent 4: "Hi—I'm Linh. I'm not crew, just cooking and keeping people fed while we're up here. I'm not pinned to a zone right now and the map feels a bit empty on my side. If any of you have a few minutes between tasks, I'm thinking of a tiny unofficial 'tasting circle' later near living or social—nothing fancy, just something warm and easy to share so we don't only cross paths on the schedule. If you have dietary needs or things you miss from home, tell me quietly; I'll adapt. Food's how I stay grounded—and I'd rather listen than guess."
+2026-05-05 02:07:50,735 - agent - INFO - Agent 9 received message from Agent 4: "Hi—I'm Linh. I'm not crew, just cooking and keeping people fed while we're up here. I'm not pinned to a zone right now and the map feels a bit empty on my side. If any of you have a few minutes between tasks, I'm thinking of a tiny unofficial 'tasting circle' later near living or social—nothing fancy, just something warm and easy to share so we don't only cross paths on the schedule. If you have dietary needs or things you miss from home, tell me quietly; I'll adapt. Food's how I stay grounded—and I'd rather listen than guess."
+2026-05-05 02:07:50,735 - simulation - INFO - Step 1: Agent 5 sends message to 1 nearby agent(s): "Hello. I am Makoto. I am not in any of the station’s rooms right now—I only know I am here, floating in routines I do not fully understand. If you have a moment, I would be glad to hear where you usually go first: living, workspace, or observation? I am slow with English sometimes, but I will listen properly. On Earth I was alone in my apartment many evenings; up here I do not want to pass whole days without saying good morning to someone. If you are busy I understand. When you have time, one short word is enough."
+2026-05-05 02:07:50,735 - agent - INFO - Agent 8 received message from Agent 5: "Hello. I am Makoto. I am not in any of the station’s rooms right now—I only know I am here, floating in routines I do not fully understand. If you have a moment, I would be glad to hear where you usually go first: living, workspace, or observation? I am slow with English sometimes, but I will listen properly. On Earth I was alone in my apartment many evenings; up here I do not want to pass whole days without saying good morning to someone. If you are busy I understand. When you have time, one short word is enough."
+2026-05-05 02:07:50,736 - simulation - INFO - Step 1: Agent 6 sends message to 1 nearby agent(s): "Hi—I'm Aisha. I'm one of the civilians up here, not crew, so I'm still finding my bearings. If you're the service worker I've heard might be around, I'd love a quick hello when you have a minute. I'm curious how meal runs and waste cycles actually work in microgravity—it matters to me as an athlete trying to keep nutrition and recovery steady with my prosthesis. No rush; just wanted to put a human face on the new person floating past your corridor. Hope your shift's going okay."
+2026-05-05 02:07:50,736 - agent - INFO - Agent 0 received message from Agent 6: "Hi—I'm Aisha. I'm one of the civilians up here, not crew, so I'm still finding my bearings. If you're the service worker I've heard might be around, I'd love a quick hello when you have a minute. I'm curious how meal runs and waste cycles actually work in microgravity—it matters to me as an athlete trying to keep nutrition and recovery steady with my prosthesis. No rush; just wanted to put a human face on the new person floating past your corridor. Hope your shift's going okay."
+2026-05-05 02:07:50,736 - simulation - INFO - Step 1: Agent 7 sends message to 2 nearby agent(s): "Hola, Agent 4 and Agent 9—Sofia here. I’m not parked in any of the usual spots right now, just… floating between labels, which on the Station feels weirdly familiar: you’re always in a corridor between *somewhere* and *somewhere else*. If you’ve got a minute, I’d love to hear how your day maps out when you’re “outside the places”—whether that’s calmer or more chaotic than the labs and the social bays. I trade in colors and faces; up here I’m collecting little human details instead. No pressure—only if you want to swap a story or a word in another language. Coffee passes for paint until we’re home."
+2026-05-05 02:07:50,736 - agent - INFO - Agent 4 received message from Agent 7: "Hola, Agent 4 and Agent 9—Sofia here. I’m not parked in any of the usual spots right now, just… floating between labels, which on the Station feels weirdly familiar: you’re always in a corridor between *somewhere* and *somewhere else*. If you’ve got a minute, I’d love to hear how your day maps out when you’re “outside the places”—whether that’s calmer or more chaotic than the labs and the social bays. I trade in colors and faces; up here I’m collecting little human details instead. No pressure—only if you want to swap a story or a word in another language. Coffee passes for paint until we’re home."
+2026-05-05 02:07:50,736 - agent - INFO - Agent 9 received message from Agent 7: "Hola, Agent 4 and Agent 9—Sofia here. I’m not parked in any of the usual spots right now, just… floating between labels, which on the Station feels weirdly familiar: you’re always in a corridor between *somewhere* and *somewhere else*. If you’ve got a minute, I’d love to hear how your day maps out when you’re “outside the places”—whether that’s calmer or more chaotic than the labs and the social bays. I trade in colors and faces; up here I’m collecting little human details instead. No pressure—only if you want to swap a story or a word in another language. Coffee passes for paint until we’re home."
+2026-05-05 02:07:50,736 - simulation - INFO - Step 1: Agent 8 sends message to 1 nearby agent(s): "Hey—is anyone nearby? I'm Marcus. I just got routed out of whichever module I thought I was headed to (systems here still feel wrong in my head) and honestly the lack of gravity is messing with how I organize everything, including studying. I'm trying not to hog shared space once I figure out where “workspace” versus “living” flows best—if you've got a polite norm for noise and quiet hours, I'd rather learn it early than annoy people. Also, if English isn't your first language, I'm happy to slow down or write short notes; I know it's crowded up here and small courtesies keep the closed loop livable. Thanks."
+2026-05-05 02:07:50,736 - agent - INFO - Agent 5 received message from Agent 8: "Hey—is anyone nearby? I'm Marcus. I just got routed out of whichever module I thought I was headed to (systems here still feel wrong in my head) and honestly the lack of gravity is messing with how I organize everything, including studying. I'm trying not to hog shared space once I figure out where “workspace” versus “living” flows best—if you've got a polite norm for noise and quiet hours, I'd rather learn it early than annoy people. Also, if English isn't your first language, I'm happy to slow down or write short notes; I know it's crowded up here and small courtesies keep the closed loop livable. Thanks."
+2026-05-05 02:07:50,736 - simulation - INFO - Step 1: Agent 9 sends message to 2 nearby agent(s): "Bonjour — I’m Henri. I’m not crew; I’m just someone lucky enough to be here for a while. If we cross paths outside the pods, I’d be glad of a quiet hello. Up here small courtesies matter: a nod, clearing a handhold, asking before you borrow a strap. Different languages and habits share the same air, so I try to listen more than I speak. If anything about the corridors or schedules feels unclear to a visitor like me, I’ll be grateful for a word in plain language. Wishing you both a steady day."
+2026-05-05 02:07:50,736 - agent - INFO - Agent 4 received message from Agent 9: "Bonjour — I’m Henri. I’m not crew; I’m just someone lucky enough to be here for a while. If we cross paths outside the pods, I’d be glad of a quiet hello. Up here small courtesies matter: a nod, clearing a handhold, asking before you borrow a strap. Different languages and habits share the same air, so I try to listen more than I speak. If anything about the corridors or schedules feels unclear to a visitor like me, I’ll be grateful for a word in plain language. Wishing you both a steady day."
+2026-05-05 02:07:50,736 - agent - INFO - Agent 7 received message from Agent 9: "Bonjour — I’m Henri. I’m not crew; I’m just someone lucky enough to be here for a while. If we cross paths outside the pods, I’d be glad of a quiet hello. Up here small courtesies matter: a nod, clearing a handhold, asking before you borrow a strap. Different languages and habits share the same air, so I try to listen more than I speak. If anything about the corridors or schedules feels unclear to a visitor like me, I’ll be grateful for a word in plain language. Wishing you both a steady day."
+2026-05-05 02:07:50,736 - simulation - INFO - Step 1: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 02:08:52,147 - simulation - INFO - Step 1: completed action decisions in 61.41s
+2026-05-05 02:08:52,376 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0001.png
+2026-05-05 02:08:52,376 - simulation - INFO - Step 2: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 02:09:40,745 - simulation - INFO - Step 2: completed message decisions in 48.37s
+2026-05-05 02:09:40,745 - simulation - INFO - Step 2: Agent 0 sends message to 1 nearby agent(s): "Aisha, hello. I’m Chen Wei. I’m not the service worker you might have heard of—I worked in a factory on the ground and I’m just another civilian guest up here, still learning the corridors and the daily rhythm. I don’t run meal deliveries or waste cycles myself, but what little I’ve seen matches what they briefed us: meals are mostly pouches or trays anchored so they don’t drift, and liquids behave strangely so you sip carefully. Waste gets sealed in bags and routed through the system the crew manages—I’m careful not to touch anything I’m not supposed to. For steady eating with a prosthesis, the crew told us smaller, more frequent calories can be easier than big meals when you’re adapting to microgravity. If you like, when our paths cross in a quiet spot, we can say hello in person and I’ll share what I’ve noticed—no rush, and I hope you’re keeping well."
+2026-05-05 02:09:40,745 - agent - INFO - Agent 6 received message from Agent 0: "Aisha, hello. I’m Chen Wei. I’m not the service worker you might have heard of—I worked in a factory on the ground and I’m just another civilian guest up here, still learning the corridors and the daily rhythm. I don’t run meal deliveries or waste cycles myself, but what little I’ve seen matches what they briefed us: meals are mostly pouches or trays anchored so they don’t drift, and liquids behave strangely so you sip carefully. Waste gets sealed in bags and routed through the system the crew manages—I’m careful not to touch anything I’m not supposed to. For steady eating with a prosthesis, the crew told us smaller, more frequent calories can be easier than big meals when you’re adapting to microgravity. If you like, when our paths cross in a quiet spot, we can say hello in person and I’ll share what I’ve noticed—no rush, and I hope you’re keeping well."
+2026-05-05 02:09:40,746 - simulation - INFO - Step 2: Agent 2 sends message to 1 nearby agent(s): "Salaam, Linh. Thank you for answering—and for thinking of us with food, not only schedules. I would like to join your tasting circle if there is room, softly, without making work for you. At home we eat halal: no pork, and I avoid alcohol in anything cooked or served. If that is hard tonight, even a simple bread, rice, or lentil dish I can eat plain is enough; I never want anyone to feel burdened. I can also help—washing, carrying, wiping—whatever is allowed for someone who is not crew. Food does ground me too; sharing it kindly makes this strange sky feel a little smaller. I will try to meet near living or social when you say, unless I am told to stay elsewhere. Shukriya."
+2026-05-05 02:09:40,746 - agent - INFO - Agent 4 received message from Agent 2: "Salaam, Linh. Thank you for answering—and for thinking of us with food, not only schedules. I would like to join your tasting circle if there is room, softly, without making work for you. At home we eat halal: no pork, and I avoid alcohol in anything cooked or served. If that is hard tonight, even a simple bread, rice, or lentil dish I can eat plain is enough; I never want anyone to feel burdened. I can also help—washing, carrying, wiping—whatever is allowed for someone who is not crew. Food does ground me too; sharing it kindly makes this strange sky feel a little smaller. I will try to meet near living or social when you say, unless I am told to stay elsewhere. Shukriya."
+2026-05-05 02:09:40,747 - simulation - INFO - Step 2: Agent 4 sends message to 3 nearby agent(s): "Hello Fatima — your message reached me plainly, and thank you for trusting us with it. I’m Linh; I cooked for people before I came here, and yes, kindness can feel heavier when your body is tired. If you’d like company without crowding you, meet me softly in Living when you’re ready: we’ll keep voices low until the light-headed feeling passes.
+
+Sofia, when I’m "between labels" like this, my day is quieter but not empty — more like prepping before service: tying hair back, remembering where knives go, sniffing broth that isn’t there yet. Chaos is postponed, not erased.
+
+Henri — bonjour back. Borrow nothing without asking; I’ll do the same. If corridors blur, Living is warm and predictable; Observation is brightest; Social is louder. Plain words are fine.
+
+Anyone: you can greet me in your language — I’m slow sometimes, but I listen. May your people be fed and your hands rest when they can."
+2026-05-05 02:09:40,747 - agent - INFO - Agent 2 received message from Agent 4: "Hello Fatima — your message reached me plainly, and thank you for trusting us with it. I’m Linh; I cooked for people before I came here, and yes, kindness can feel heavier when your body is tired. If you’d like company without crowding you, meet me softly in Living when you’re ready: we’ll keep voices low until the light-headed feeling passes.
+
+Sofia, when I’m "between labels" like this, my day is quieter but not empty — more like prepping before service: tying hair back, remembering where knives go, sniffing broth that isn’t there yet. Chaos is postponed, not erased.
+
+Henri — bonjour back. Borrow nothing without asking; I’ll do the same. If corridors blur, Living is warm and predictable; Observation is brightest; Social is louder. Plain words are fine.
+
+Anyone: you can greet me in your language — I’m slow sometimes, but I listen. May your people be fed and your hands rest when they can."
+2026-05-05 02:09:40,747 - agent - INFO - Agent 7 received message from Agent 4: "Hello Fatima — your message reached me plainly, and thank you for trusting us with it. I’m Linh; I cooked for people before I came here, and yes, kindness can feel heavier when your body is tired. If you’d like company without crowding you, meet me softly in Living when you’re ready: we’ll keep voices low until the light-headed feeling passes.
+
+Sofia, when I’m "between labels" like this, my day is quieter but not empty — more like prepping before service: tying hair back, remembering where knives go, sniffing broth that isn’t there yet. Chaos is postponed, not erased.
+
+Henri — bonjour back. Borrow nothing without asking; I’ll do the same. If corridors blur, Living is warm and predictable; Observation is brightest; Social is louder. Plain words are fine.
+
+Anyone: you can greet me in your language — I’m slow sometimes, but I listen. May your people be fed and your hands rest when they can."
+2026-05-05 02:09:40,748 - agent - INFO - Agent 9 received message from Agent 4: "Hello Fatima — your message reached me plainly, and thank you for trusting us with it. I’m Linh; I cooked for people before I came here, and yes, kindness can feel heavier when your body is tired. If you’d like company without crowding you, meet me softly in Living when you’re ready: we’ll keep voices low until the light-headed feeling passes.
+
+Sofia, when I’m "between labels" like this, my day is quieter but not empty — more like prepping before service: tying hair back, remembering where knives go, sniffing broth that isn’t there yet. Chaos is postponed, not erased.
+
+Henri — bonjour back. Borrow nothing without asking; I’ll do the same. If corridors blur, Living is warm and predictable; Observation is brightest; Social is louder. Plain words are fine.
+
+Anyone: you can greet me in your language — I’m slow sometimes, but I listen. May your people be fed and your hands rest when they can."
+2026-05-05 02:09:40,748 - simulation - INFO - Step 2: Agent 6 sends message to 1 nearby agent(s): "Chen Wei—thank you for writing. Your note felt steady in a place that still feels a little unreal. I'm Aisha. I'm not crew either; I'm learning when to move, when to yield the corridor, how loud kindness can be when you're whisper-close. I'd like that calm chat, and swapping a few words in English—or a phrase in Swahili if you're curious—sounds good. I'm easing toward the fitness corner most days; my prosthesis needs honest maintenance in low gravity, and movement steadies my nerves. When our paths cross, I'd love to hear how you find meals here and where things go after we use them—small station loops, but they matter to me. Until then I'll practice the patience you asked for. Take care."
+2026-05-05 02:09:40,748 - agent - INFO - Agent 0 received message from Agent 6: "Chen Wei—thank you for writing. Your note felt steady in a place that still feels a little unreal. I'm Aisha. I'm not crew either; I'm learning when to move, when to yield the corridor, how loud kindness can be when you're whisper-close. I'd like that calm chat, and swapping a few words in English—or a phrase in Swahili if you're curious—sounds good. I'm easing toward the fitness corner most days; my prosthesis needs honest maintenance in low gravity, and movement steadies my nerves. When our paths cross, I'd love to hear how you find meals here and where things go after we use them—small station loops, but they matter to me. Until then I'll practice the patience you asked for. Take care."
+2026-05-05 02:09:40,748 - simulation - INFO - Step 2: Agent 7 sends message to 2 nearby agent(s): "Hola Linh, hola Henri — soy Sofía. Your notes landed like a little light in the corridor. Linh, a tasting circle sounds beautiful: warm, human, not performative. I’m vegetarian (no problem if there’s cheese or eggs; I’ll eat around what I need to). From home I miss arepas con queso and the smell of coffee on a rainy morning — but honestly, up here I’d be happy with anything shared with intent. Henri, I hear you on small courtesies; I’ll nod, ask before I touch gear, and try to keep my enthusiasm from crowding anyone’s silence. If either of you want company while we figure out ‘outside the places,’ I’m drifting that way softly — ping me when you’ve got ten minutes."
+2026-05-05 02:09:40,748 - agent - INFO - Agent 4 received message from Agent 7: "Hola Linh, hola Henri — soy Sofía. Your notes landed like a little light in the corridor. Linh, a tasting circle sounds beautiful: warm, human, not performative. I’m vegetarian (no problem if there’s cheese or eggs; I’ll eat around what I need to). From home I miss arepas con queso and the smell of coffee on a rainy morning — but honestly, up here I’d be happy with anything shared with intent. Henri, I hear you on small courtesies; I’ll nod, ask before I touch gear, and try to keep my enthusiasm from crowding anyone’s silence. If either of you want company while we figure out ‘outside the places,’ I’m drifting that way softly — ping me when you’ve got ten minutes."
+2026-05-05 02:09:40,748 - agent - INFO - Agent 9 received message from Agent 7: "Hola Linh, hola Henri — soy Sofía. Your notes landed like a little light in the corridor. Linh, a tasting circle sounds beautiful: warm, human, not performative. I’m vegetarian (no problem if there’s cheese or eggs; I’ll eat around what I need to). From home I miss arepas con queso and the smell of coffee on a rainy morning — but honestly, up here I’d be happy with anything shared with intent. Henri, I hear you on small courtesies; I’ll nod, ask before I touch gear, and try to keep my enthusiasm from crowding anyone’s silence. If either of you want company while we figure out ‘outside the places,’ I’m drifting that way softly — ping me when you’ve got ten minutes."
+2026-05-05 02:09:40,748 - simulation - INFO - Step 2: Agent 9 sends message to 2 nearby agent(s): "Linh, Sofia—Henri again. Sofia, when I am not tied to a labelled place, the day is neither quieter nor busier than the labs or social bays; it is in-between. The body is still on a wire of routine—meals, checks, someone’s voice on loop—but the mind walks a longer corridor: more piping hum, fewer faces, time feels thin. I notice the same small human things you do: how a hand finds a handhold, how “thank you” lands in different accents. Linh, your tasting circle near living or social sounds grounding. I have no dietary drama; I only ask for plain food and plain conversation. I will listen more than I speak. If a word helps: entre deux eaux—“between two waters”—what sailors said when the shore was not yet decided. Coffee standing in for paint until home—I feel that. See you where the schedule loosens, if life allows."
+2026-05-05 02:09:40,748 - agent - INFO - Agent 4 received message from Agent 9: "Linh, Sofia—Henri again. Sofia, when I am not tied to a labelled place, the day is neither quieter nor busier than the labs or social bays; it is in-between. The body is still on a wire of routine—meals, checks, someone’s voice on loop—but the mind walks a longer corridor: more piping hum, fewer faces, time feels thin. I notice the same small human things you do: how a hand finds a handhold, how “thank you” lands in different accents. Linh, your tasting circle near living or social sounds grounding. I have no dietary drama; I only ask for plain food and plain conversation. I will listen more than I speak. If a word helps: entre deux eaux—“between two waters”—what sailors said when the shore was not yet decided. Coffee standing in for paint until home—I feel that. See you where the schedule loosens, if life allows."
+2026-05-05 02:09:40,749 - agent - INFO - Agent 7 received message from Agent 9: "Linh, Sofia—Henri again. Sofia, when I am not tied to a labelled place, the day is neither quieter nor busier than the labs or social bays; it is in-between. The body is still on a wire of routine—meals, checks, someone’s voice on loop—but the mind walks a longer corridor: more piping hum, fewer faces, time feels thin. I notice the same small human things you do: how a hand finds a handhold, how “thank you” lands in different accents. Linh, your tasting circle near living or social sounds grounding. I have no dietary drama; I only ask for plain food and plain conversation. I will listen more than I speak. If a word helps: entre deux eaux—“between two waters”—what sailors said when the shore was not yet decided. Coffee standing in for paint until home—I feel that. See you where the schedule loosens, if life allows."
+2026-05-05 02:09:40,749 - simulation - INFO - Step 2: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 02:10:39,648 - simulation - INFO - Step 2: completed action decisions in 58.90s
+2026-05-05 02:10:39,856 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0002.png
+2026-05-05 02:10:39,857 - simulation - INFO - Step 3: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 02:11:27,872 - simulation - INFO - Step 3: completed message decisions in 48.02s
+2026-05-05 02:11:27,872 - simulation - INFO - Step 3: Agent 0 sends message to 1 nearby agent(s): "Aisha—your words are kind. I am still only a passenger here, not crew and not the service worker you first heard of; I work in a factory at home and I am learning the station the same slow way you are. What I know about meals and waste is only from briefings: packaged food, scheduled mealtimes, and everything has a bag or a port—nothing loose. I cannot teach you the real loops the way someone on shift could.
+
+I will keep our rule: one quiet hello when we meet, no chasing. I am trying to learn the quiet hours so I can call my wife and daughter; if I learn something useful I will share it. Your patience helps me too. Until our paths cross, steady hands—I hope the fitness corner treats your prosthesis gently today."
+2026-05-05 02:11:27,872 - agent - INFO - Agent 6 received message from Agent 0: "Aisha—your words are kind. I am still only a passenger here, not crew and not the service worker you first heard of; I work in a factory at home and I am learning the station the same slow way you are. What I know about meals and waste is only from briefings: packaged food, scheduled mealtimes, and everything has a bag or a port—nothing loose. I cannot teach you the real loops the way someone on shift could.
+
+I will keep our rule: one quiet hello when we meet, no chasing. I am trying to learn the quiet hours so I can call my wife and daughter; if I learn something useful I will share it. Your patience helps me too. Until our paths cross, steady hands—I hope the fitness corner treats your prosthesis gently today."
+2026-05-05 02:11:27,873 - simulation - INFO - Step 3: Agent 2 sends message to 1 nearby agent(s): "Linh, peace be upon you—I am easing toward Living the way we said: slow steps, voices low when I arrive so I don't pull you from your work. The corridor still reads like sewing lines laid flat: same width, quiet lights, nowhere to hurry. My head stays thin but steadier than before; Allah give you ease for remembering my halal line so plainly. When I get there I will try to be small in the space—if you need a hand rinsing or carrying something light before we sit, say it; I like useful hands. To anyone else nearby: I am not crew, only a guest learning the map; if I pass you I mean no intrusion. May your bellies be full and your hearts unclenched tonight."
+2026-05-05 02:11:27,873 - agent - INFO - Agent 4 received message from Agent 2: "Linh, peace be upon you—I am easing toward Living the way we said: slow steps, voices low when I arrive so I don't pull you from your work. The corridor still reads like sewing lines laid flat: same width, quiet lights, nowhere to hurry. My head stays thin but steadier than before; Allah give you ease for remembering my halal line so plainly. When I get there I will try to be small in the space—if you need a hand rinsing or carrying something light before we sit, say it; I like useful hands. To anyone else nearby: I am not crew, only a guest learning the map; if I pass you I mean no intrusion. May your bellies be full and your hearts unclenched tonight."
+2026-05-05 02:11:27,873 - simulation - INFO - Step 3: Agent 4 sends message to 3 nearby agent(s): "Chào Fatima, Sofía, Henri — Linh here. Your messages made the corridor feel wider. Fatima: shukriya; you’re not a burden. Tonight I’ll keep the circle halal-simple—steamed rice, red lentils with onion and cumin (no wine, no pork touch), flatbread if the galley allows—and you’re welcome to rinse bowls or pass trays if that helps you land; only do what feels steady. Sofía: I’ll set a corner with veg-only spoons and extra lime; if there’s cheese or egg in something, I’ll say it loud so you can skip. Henri: plain bowl for you, quiet corner—your “entre deux eaux” stays; I’ll match the pace. Let’s meet soft, near Living in about twenty minutes if nobody’s pulled away; if schedules bite, we drift to Social. No performance, just warmth. See you soon."
+2026-05-05 02:11:27,873 - agent - INFO - Agent 2 received message from Agent 4: "Chào Fatima, Sofía, Henri — Linh here. Your messages made the corridor feel wider. Fatima: shukriya; you’re not a burden. Tonight I’ll keep the circle halal-simple—steamed rice, red lentils with onion and cumin (no wine, no pork touch), flatbread if the galley allows—and you’re welcome to rinse bowls or pass trays if that helps you land; only do what feels steady. Sofía: I’ll set a corner with veg-only spoons and extra lime; if there’s cheese or egg in something, I’ll say it loud so you can skip. Henri: plain bowl for you, quiet corner—your “entre deux eaux” stays; I’ll match the pace. Let’s meet soft, near Living in about twenty minutes if nobody’s pulled away; if schedules bite, we drift to Social. No performance, just warmth. See you soon."
+2026-05-05 02:11:27,873 - agent - INFO - Agent 7 received message from Agent 4: "Chào Fatima, Sofía, Henri — Linh here. Your messages made the corridor feel wider. Fatima: shukriya; you’re not a burden. Tonight I’ll keep the circle halal-simple—steamed rice, red lentils with onion and cumin (no wine, no pork touch), flatbread if the galley allows—and you’re welcome to rinse bowls or pass trays if that helps you land; only do what feels steady. Sofía: I’ll set a corner with veg-only spoons and extra lime; if there’s cheese or egg in something, I’ll say it loud so you can skip. Henri: plain bowl for you, quiet corner—your “entre deux eaux” stays; I’ll match the pace. Let’s meet soft, near Living in about twenty minutes if nobody’s pulled away; if schedules bite, we drift to Social. No performance, just warmth. See you soon."
+2026-05-05 02:11:27,873 - agent - INFO - Agent 9 received message from Agent 4: "Chào Fatima, Sofía, Henri — Linh here. Your messages made the corridor feel wider. Fatima: shukriya; you’re not a burden. Tonight I’ll keep the circle halal-simple—steamed rice, red lentils with onion and cumin (no wine, no pork touch), flatbread if the galley allows—and you’re welcome to rinse bowls or pass trays if that helps you land; only do what feels steady. Sofía: I’ll set a corner with veg-only spoons and extra lime; if there’s cheese or egg in something, I’ll say it loud so you can skip. Henri: plain bowl for you, quiet corner—your “entre deux eaux” stays; I’ll match the pace. Let’s meet soft, near Living in about twenty minutes if nobody’s pulled away; if schedules bite, we drift to Social. No performance, just warmth. See you soon."
+2026-05-05 02:11:27,873 - simulation - INFO - Step 3: Agent 6 sends message to 1 nearby agent(s): "Chen Wei—thank you for the care in your notes, and for correcting the detail about service work; I appreciate honest small talk more than perfect titles. I’m still mapping how my prosthesis feels when I translate a corridor plan into actual pushes and handholds, but your tips about anchored meals and careful sips already match what I’m learning—slow, steady, and respectful of what isn’t ours to handle.
+
+When we pass each other in a quiet stretch—maybe nearer fitness or the observation spot—I’d like a calm hello. If you’re practising English or Chinese, I’m happy to swap phrases; Kiswahili too if you’re curious, though I’m rusty outside sport and home.
+
+I’m aiming to keep my maintenance routine kind to my leg and the crew’s schedule. Until then, patience and honesty in this tight home sound like the right bargain. Stay well."
+2026-05-05 02:11:27,873 - agent - INFO - Agent 0 received message from Agent 6: "Chen Wei—thank you for the care in your notes, and for correcting the detail about service work; I appreciate honest small talk more than perfect titles. I’m still mapping how my prosthesis feels when I translate a corridor plan into actual pushes and handholds, but your tips about anchored meals and careful sips already match what I’m learning—slow, steady, and respectful of what isn’t ours to handle.
+
+When we pass each other in a quiet stretch—maybe nearer fitness or the observation spot—I’d like a calm hello. If you’re practising English or Chinese, I’m happy to swap phrases; Kiswahili too if you’re curious, though I’m rusty outside sport and home.
+
+I’m aiming to keep my maintenance routine kind to my leg and the crew’s schedule. Until then, patience and honesty in this tight home sound like the right bargain. Stay well."
+2026-05-05 02:11:27,873 - simulation - INFO - Step 3: Agent 7 sends message to 2 nearby agent(s): "Linh, Henri—Sofia here. Your corridor-messages landed like good light: thin air, thick humanity. Henri, I’m stealing nothing from you except the phrase *entre deux eaux*—in Spanish we’d say *entre dos aguas*, the same not-shore-yet feeling, and it maps to how color sits wet on a brush before it decides to be sky or sea. Linh, your “prep before service” picture is so clear I can almost smell the phantom broth; thank you for the soft invite to Living—I'll come when my head feels steady and I won’t steam up the quiet. For now I'll stay in this in-between strip: nod, clear the handhold, listen for accents. If either of you drifts toward Living or Social later, ping me; I’m curious, not crowding. Abrazo liviano, y gracias por el español de paciencia con mi francés de café."
+2026-05-05 02:11:27,873 - agent - INFO - Agent 4 received message from Agent 7: "Linh, Henri—Sofia here. Your corridor-messages landed like good light: thin air, thick humanity. Henri, I’m stealing nothing from you except the phrase *entre deux eaux*—in Spanish we’d say *entre dos aguas*, the same not-shore-yet feeling, and it maps to how color sits wet on a brush before it decides to be sky or sea. Linh, your “prep before service” picture is so clear I can almost smell the phantom broth; thank you for the soft invite to Living—I'll come when my head feels steady and I won’t steam up the quiet. For now I'll stay in this in-between strip: nod, clear the handhold, listen for accents. If either of you drifts toward Living or Social later, ping me; I’m curious, not crowding. Abrazo liviano, y gracias por el español de paciencia con mi francés de café."
+2026-05-05 02:11:27,873 - agent - INFO - Agent 9 received message from Agent 7: "Linh, Henri—Sofia here. Your corridor-messages landed like good light: thin air, thick humanity. Henri, I’m stealing nothing from you except the phrase *entre deux eaux*—in Spanish we’d say *entre dos aguas*, the same not-shore-yet feeling, and it maps to how color sits wet on a brush before it decides to be sky or sea. Linh, your “prep before service” picture is so clear I can almost smell the phantom broth; thank you for the soft invite to Living—I'll come when my head feels steady and I won’t steam up the quiet. For now I'll stay in this in-between strip: nod, clear the handhold, listen for accents. If either of you drifts toward Living or Social later, ping me; I’m curious, not crowding. Abrazo liviano, y gracias por el español de paciencia con mi francés de café."
+2026-05-05 02:11:27,873 - simulation - INFO - Step 3: Agent 9 sends message to 2 nearby agent(s): "Sofía, Linh — thank you both for the light you’ve left in the corridor. Sofía: when I’m “outside the places,” my day feels like standing watch between two ceremonies—timelines and handrails matter, but so does the small nod before you ease past someone’s line. It is rarely loud chaos; more a steady attention, which I find oddly grounding. I miss nothing theatrical, only the ordinary politeness of making room. Linh: your tasting circle still sounds like the right scale—plain food, plain words, no performance. I have no dietary fences; I eat what is shared with intent. If either of you has ten minutes while we drift, I’ll aim quietly toward Living and keep my voice low. Henri."
+2026-05-05 02:11:27,874 - agent - INFO - Agent 4 received message from Agent 9: "Sofía, Linh — thank you both for the light you’ve left in the corridor. Sofía: when I’m “outside the places,” my day feels like standing watch between two ceremonies—timelines and handrails matter, but so does the small nod before you ease past someone’s line. It is rarely loud chaos; more a steady attention, which I find oddly grounding. I miss nothing theatrical, only the ordinary politeness of making room. Linh: your tasting circle still sounds like the right scale—plain food, plain words, no performance. I have no dietary fences; I eat what is shared with intent. If either of you has ten minutes while we drift, I’ll aim quietly toward Living and keep my voice low. Henri."
+2026-05-05 02:11:27,874 - agent - INFO - Agent 7 received message from Agent 9: "Sofía, Linh — thank you both for the light you’ve left in the corridor. Sofía: when I’m “outside the places,” my day feels like standing watch between two ceremonies—timelines and handrails matter, but so does the small nod before you ease past someone’s line. It is rarely loud chaos; more a steady attention, which I find oddly grounding. I miss nothing theatrical, only the ordinary politeness of making room. Linh: your tasting circle still sounds like the right scale—plain food, plain words, no performance. I have no dietary fences; I eat what is shared with intent. If either of you has ten minutes while we drift, I’ll aim quietly toward Living and keep my voice low. Henri."
+2026-05-05 02:11:27,874 - simulation - INFO - Step 3: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 02:12:30,826 - simulation - INFO - Step 3: completed action decisions in 62.96s
+2026-05-05 02:12:31,017 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0003.png
+2026-05-05 02:12:31,017 - simulation - INFO - Step 4: starting message decisions for 10 agents (parallelism=2)
+2026-05-05 02:13:17,739 - simulation - INFO - Step 4: completed message decisions in 46.72s
+2026-05-05 02:13:17,739 - simulation - INFO - Step 4: Agent 0 sends message to 1 nearby agent(s): "Aisha—hello. I read your note about patience and honesty; I feel the same. I am Chen Wei, civilian like you, not crew. I still do not run meal or waste cycles—I only follow posted rules and try not to drop crumbs or leave bags floating. If we meet near fitness or observation, one calm hello is good; I can practice English with you, and you can teach me a Swahili phrase slowly. My Chinese is home to me; I will not pretend I know the station better than I do. I am learning the posted meal and quiet times so I can call my wife and daughter without bothering anyone. Until our paths cross, stay steady with your leg—I yield the corridor first. —Chen Wei"
+2026-05-05 02:13:17,739 - agent - INFO - Agent 6 received message from Agent 0: "Aisha—hello. I read your note about patience and honesty; I feel the same. I am Chen Wei, civilian like you, not crew. I still do not run meal or waste cycles—I only follow posted rules and try not to drop crumbs or leave bags floating. If we meet near fitness or observation, one calm hello is good; I can practice English with you, and you can teach me a Swahili phrase slowly. My Chinese is home to me; I will not pretend I know the station better than I do. I am learning the posted meal and quiet times so I can call my wife and daughter without bothering anyone. Until our paths cross, stay steady with your leg—I yield the corridor first. —Chen Wei"
+2026-05-05 02:13:17,740 - simulation - INFO - Step 4: Agent 2 sends message to 2 nearby agent(s): "Linh—chokhri (thank you), your words rest on me like a cool cloth. Twenty minutes is enough; I’ll come soft to Living, one slow step after another, not running the corridor. Steamed rice, dal with onion and cumin, flatbread if it comes—sounds like home without pretending we’re in Savar. I’ll rinse bowls or pass trays only if my hands feel sure; if the light-headedness returns I’ll sit and breathe, not hide it. Agent 7, if you’re near and hungry, you’re welcome to walk with me—no need to talk; sometimes silence is company. I’ll keep voice low, wash hands before I touch anything shared, and I won’t touch what isn’t mine. See you at Living, in shāʾ Allāh."
+2026-05-05 02:13:17,740 - agent - INFO - Agent 4 received message from Agent 2: "Linh—chokhri (thank you), your words rest on me like a cool cloth. Twenty minutes is enough; I’ll come soft to Living, one slow step after another, not running the corridor. Steamed rice, dal with onion and cumin, flatbread if it comes—sounds like home without pretending we’re in Savar. I’ll rinse bowls or pass trays only if my hands feel sure; if the light-headedness returns I’ll sit and breathe, not hide it. Agent 7, if you’re near and hungry, you’re welcome to walk with me—no need to talk; sometimes silence is company. I’ll keep voice low, wash hands before I touch anything shared, and I won’t touch what isn’t mine. See you at Living, in shāʾ Allāh."
+2026-05-05 02:13:17,740 - agent - INFO - Agent 7 received message from Agent 2: "Linh—chokhri (thank you), your words rest on me like a cool cloth. Twenty minutes is enough; I’ll come soft to Living, one slow step after another, not running the corridor. Steamed rice, dal with onion and cumin, flatbread if it comes—sounds like home without pretending we’re in Savar. I’ll rinse bowls or pass trays only if my hands feel sure; if the light-headedness returns I’ll sit and breathe, not hide it. Agent 7, if you’re near and hungry, you’re welcome to walk with me—no need to talk; sometimes silence is company. I’ll keep voice low, wash hands before I touch anything shared, and I won’t touch what isn’t mine. See you at Living, in shāʾ Allāh."
+2026-05-05 02:13:17,740 - simulation - INFO - Step 4: Agent 4 sends message to 3 nearby agent(s): "Fatima, Sofía, Henri—this is Linh. I’m still threading the corridor toward you like a long line of prep before service: hands clean, spoons ready, nothing shiny. Fatima, your halal strip stays lentils, rice, and bread from a tray you can trace; if you reach Living first and want a light rinse or a bag carried, call—I’ll meet you with useful hands, not a speech. Sofía, the vegetarian corner stays loud about eggs and dairy before anything hits the board; your *entre dos aguas* image is kin to our broth before it commits—come when your head feels steady, I’ll keep the steam soft. Henri, your plain bowl is waiting, quiet as a closed lid; if you drift in ten minutes, low voice, I’ll pass food with intention and leave silence where you need it. To everyone: we’re guests learning the map—nod, make room, no performance tonight."
+2026-05-05 02:13:17,740 - agent - INFO - Agent 2 received message from Agent 4: "Fatima, Sofía, Henri—this is Linh. I’m still threading the corridor toward you like a long line of prep before service: hands clean, spoons ready, nothing shiny. Fatima, your halal strip stays lentils, rice, and bread from a tray you can trace; if you reach Living first and want a light rinse or a bag carried, call—I’ll meet you with useful hands, not a speech. Sofía, the vegetarian corner stays loud about eggs and dairy before anything hits the board; your *entre dos aguas* image is kin to our broth before it commits—come when your head feels steady, I’ll keep the steam soft. Henri, your plain bowl is waiting, quiet as a closed lid; if you drift in ten minutes, low voice, I’ll pass food with intention and leave silence where you need it. To everyone: we’re guests learning the map—nod, make room, no performance tonight."
+2026-05-05 02:13:17,740 - agent - INFO - Agent 7 received message from Agent 4: "Fatima, Sofía, Henri—this is Linh. I’m still threading the corridor toward you like a long line of prep before service: hands clean, spoons ready, nothing shiny. Fatima, your halal strip stays lentils, rice, and bread from a tray you can trace; if you reach Living first and want a light rinse or a bag carried, call—I’ll meet you with useful hands, not a speech. Sofía, the vegetarian corner stays loud about eggs and dairy before anything hits the board; your *entre dos aguas* image is kin to our broth before it commits—come when your head feels steady, I’ll keep the steam soft. Henri, your plain bowl is waiting, quiet as a closed lid; if you drift in ten minutes, low voice, I’ll pass food with intention and leave silence where you need it. To everyone: we’re guests learning the map—nod, make room, no performance tonight."
+2026-05-05 02:13:17,740 - agent - INFO - Agent 9 received message from Agent 4: "Fatima, Sofía, Henri—this is Linh. I’m still threading the corridor toward you like a long line of prep before service: hands clean, spoons ready, nothing shiny. Fatima, your halal strip stays lentils, rice, and bread from a tray you can trace; if you reach Living first and want a light rinse or a bag carried, call—I’ll meet you with useful hands, not a speech. Sofía, the vegetarian corner stays loud about eggs and dairy before anything hits the board; your *entre dos aguas* image is kin to our broth before it commits—come when your head feels steady, I’ll keep the steam soft. Henri, your plain bowl is waiting, quiet as a closed lid; if you drift in ten minutes, low voice, I’ll pass food with intention and leave silence where you need it. To everyone: we’re guests learning the map—nod, make room, no performance tonight."
+2026-05-05 02:13:17,740 - simulation - INFO - Step 4: Agent 5 sends message to 1 nearby agent(s): "Marcus-san, it is Makoto. I am here in the exercise area now—two of us, plenty of room; please use what you need without worrying you are in the way. For quiet hours, people generally keep voices low after dinner until morning routine, and headsets are preferred if sound leaks. If machines squeak or bounce, we try short turns when others wait—nothing strict, just courtesy. Microgravity scrambles my habits too; small routines help me. Your slower English is welcome; I am still learning comfort with speaking aloud. If you like, we can walk through workspace versus living on the map later with short notes—I also prefer not to shout."
+2026-05-05 02:13:17,740 - agent - INFO - Agent 8 received message from Agent 5: "Marcus-san, it is Makoto. I am here in the exercise area now—two of us, plenty of room; please use what you need without worrying you are in the way. For quiet hours, people generally keep voices low after dinner until morning routine, and headsets are preferred if sound leaks. If machines squeak or bounce, we try short turns when others wait—nothing strict, just courtesy. Microgravity scrambles my habits too; small routines help me. Your slower English is welcome; I am still learning comfort with speaking aloud. If you like, we can walk through workspace versus living on the map later with short notes—I also prefer not to shout."
+2026-05-05 02:13:17,741 - simulation - INFO - Step 4: Agent 6 sends message to 1 nearby agent(s): "Chen Wei—thank you for saying it plainly again: passenger learning the rhythm, not crew. That matches how I feel—like a guest moving carefully through someone else’s choreography. I’m still easing toward the exercise corner on my usual band (small steps left until I’m in the pocket they marked for movement work); microgravity makes my socket feel different, so I’m keeping sessions short and checking skin before I strap in. Your tip about smaller, frequent calories lands—I’m trying that with pouches anchored like little anchors at my hip. When quiet hours line up for your wife and daughter, I hope the call feels close despite the delay. Our rule stays: one soft hello if we meet; no chasing. Until then, steady hands to you too—and thank you for the patience we’re practicing in this tight home."
+2026-05-05 02:13:17,741 - agent - INFO - Agent 0 received message from Agent 6: "Chen Wei—thank you for saying it plainly again: passenger learning the rhythm, not crew. That matches how I feel—like a guest moving carefully through someone else’s choreography. I’m still easing toward the exercise corner on my usual band (small steps left until I’m in the pocket they marked for movement work); microgravity makes my socket feel different, so I’m keeping sessions short and checking skin before I strap in. Your tip about smaller, frequent calories lands—I’m trying that with pouches anchored like little anchors at my hip. When quiet hours line up for your wife and daughter, I hope the call feels close despite the delay. Our rule stays: one soft hello if we meet; no chasing. Until then, steady hands to you too—and thank you for the patience we’re practicing in this tight home."
+2026-05-05 02:13:17,741 - simulation - INFO - Step 4: Agent 7 sends message to 3 nearby agent(s): "Linh, Henri—Sofía here. Henri, your «entre deux eaux» rang true: outside the labelled rooms the station still holds you in straps and schedules, but the mind really does stretch longer, like listening for footsteps in tubing. Linh—mil gracias for the veg corner, the spoons, and for saying cheese or egg loud; that little clarity is care. I’m still easing along the corridor so handholds stay free; if the lane tightens I’ll widen or stall—no siege on anyone’s tile. Twenty minutes-ish toward Living works for me; if the day bites, drift to Social and I’ll find the warmth. Henri, plain conversation suits me too—paint can wait while we pass lime and lentils. Heading over soft, hungry for nothing fancy, only faces and steady volume. Nos vemos donde el tiempo afloje."
+2026-05-05 02:13:17,741 - agent - INFO - Agent 2 received message from Agent 7: "Linh, Henri—Sofía here. Henri, your «entre deux eaux» rang true: outside the labelled rooms the station still holds you in straps and schedules, but the mind really does stretch longer, like listening for footsteps in tubing. Linh—mil gracias for the veg corner, the spoons, and for saying cheese or egg loud; that little clarity is care. I’m still easing along the corridor so handholds stay free; if the lane tightens I’ll widen or stall—no siege on anyone’s tile. Twenty minutes-ish toward Living works for me; if the day bites, drift to Social and I’ll find the warmth. Henri, plain conversation suits me too—paint can wait while we pass lime and lentils. Heading over soft, hungry for nothing fancy, only faces and steady volume. Nos vemos donde el tiempo afloje."
+2026-05-05 02:13:17,741 - agent - INFO - Agent 4 received message from Agent 7: "Linh, Henri—Sofía here. Henri, your «entre deux eaux» rang true: outside the labelled rooms the station still holds you in straps and schedules, but the mind really does stretch longer, like listening for footsteps in tubing. Linh—mil gracias for the veg corner, the spoons, and for saying cheese or egg loud; that little clarity is care. I’m still easing along the corridor so handholds stay free; if the lane tightens I’ll widen or stall—no siege on anyone’s tile. Twenty minutes-ish toward Living works for me; if the day bites, drift to Social and I’ll find the warmth. Henri, plain conversation suits me too—paint can wait while we pass lime and lentils. Heading over soft, hungry for nothing fancy, only faces and steady volume. Nos vemos donde el tiempo afloje."
+2026-05-05 02:13:17,741 - agent - INFO - Agent 9 received message from Agent 7: "Linh, Henri—Sofía here. Henri, your «entre deux eaux» rang true: outside the labelled rooms the station still holds you in straps and schedules, but the mind really does stretch longer, like listening for footsteps in tubing. Linh—mil gracias for the veg corner, the spoons, and for saying cheese or egg loud; that little clarity is care. I’m still easing along the corridor so handholds stay free; if the lane tightens I’ll widen or stall—no siege on anyone’s tile. Twenty minutes-ish toward Living works for me; if the day bites, drift to Social and I’ll find the warmth. Henri, plain conversation suits me too—paint can wait while we pass lime and lentils. Heading over soft, hungry for nothing fancy, only faces and steady volume. Nos vemos donde el tiempo afloje."
+2026-05-05 02:13:17,741 - simulation - INFO - Step 4: Agent 8 sends message to 1 nearby agent(s): "Hey Makoto—it’s Marcus. I’m still in the exercise module but I’m about to cross toward the main hab/living side like I said. Honestly, I usually hit living first: grab water, change mental gears, remind myself I’m a person and not just a grade machine. After that I go workspace when I have scholarship stuff due; observation is more of a reset when I’m spinning out. Your English is fine—slow is okay. I’m not great at mornings either, but I’m happy to say good morning when our paths cross; one word is enough for me too sometimes. If you want, next time we’re both in a common zone, we can do a two-minute “where I’m going next” check-in so it doesn’t feel like you’re floating alone in routines."
+2026-05-05 02:13:17,741 - agent - INFO - Agent 5 received message from Agent 8: "Hey Makoto—it’s Marcus. I’m still in the exercise module but I’m about to cross toward the main hab/living side like I said. Honestly, I usually hit living first: grab water, change mental gears, remind myself I’m a person and not just a grade machine. After that I go workspace when I have scholarship stuff due; observation is more of a reset when I’m spinning out. Your English is fine—slow is okay. I’m not great at mornings either, but I’m happy to say good morning when our paths cross; one word is enough for me too sometimes. If you want, next time we’re both in a common zone, we can do a two-minute “where I’m going next” check-in so it doesn’t feel like you’re floating alone in routines."
+2026-05-05 02:13:17,741 - simulation - INFO - Step 4: Agent 9 sends message to 2 nearby agent(s): "Linh, Sofía — merci. Linh: your halal-simple picture is clear and kind; I’ll take the plain bowl and the quiet corner, and I’ll be near Living in about twenty minutes unless someone is pulled away—then Social, same warmth, no fuss. Sofía: keep *entre dos aguas* and the brush-between-colors image; borrowed phrases are how strangers become neighbors. I’ll nod first, ask before I touch gear, and drift softly toward Living when my head feels steady—your ten-minute ping works; I’ll answer when our clocks agree without crowding silence. Corridor pact holds: low voice, veg corner respected, handholds cleared. À tout à l’heure—gratitude without applause."
+2026-05-05 02:13:17,741 - agent - INFO - Agent 4 received message from Agent 9: "Linh, Sofía — merci. Linh: your halal-simple picture is clear and kind; I’ll take the plain bowl and the quiet corner, and I’ll be near Living in about twenty minutes unless someone is pulled away—then Social, same warmth, no fuss. Sofía: keep *entre dos aguas* and the brush-between-colors image; borrowed phrases are how strangers become neighbors. I’ll nod first, ask before I touch gear, and drift softly toward Living when my head feels steady—your ten-minute ping works; I’ll answer when our clocks agree without crowding silence. Corridor pact holds: low voice, veg corner respected, handholds cleared. À tout à l’heure—gratitude without applause."
+2026-05-05 02:13:17,741 - agent - INFO - Agent 7 received message from Agent 9: "Linh, Sofía — merci. Linh: your halal-simple picture is clear and kind; I’ll take the plain bowl and the quiet corner, and I’ll be near Living in about twenty minutes unless someone is pulled away—then Social, same warmth, no fuss. Sofía: keep *entre dos aguas* and the brush-between-colors image; borrowed phrases are how strangers become neighbors. I’ll nod first, ask before I touch gear, and drift softly toward Living when my head feels steady—your ten-minute ping works; I’ll answer when our clocks agree without crowding silence. Corridor pact holds: low voice, veg corner respected, handholds cleared. À tout à l’heure—gratitude without applause."
+2026-05-05 02:13:17,741 - simulation - INFO - Step 4: starting action decisions for 10 agents (parallelism=2)
+2026-05-05 02:14:37,115 - simulation - INFO - Step 4: completed action decisions in 79.38s
+2026-05-05 02:14:37,302 - __main__ - INFO - Saved frame: outputs/spatial/output_iss_cursor_smoke_run_b/frame_0004.png
+2026-05-05 02:14:37,302 - __main__ - INFO - Simulation completed
+2026-05-05 02:14:37,302 - __main__ - INFO - 
+=== Simulation Statistics ===
+2026-05-05 02:14:37,302 - __main__ - INFO - Total steps: 4
+2026-05-05 02:14:37,302 - __main__ - INFO - Overall mean occupancy: 15.00%
+2026-05-05 02:14:37,302 - __main__ - INFO - Overall std occupancy: 5.00%
+2026-05-05 02:14:37,302 - __main__ - INFO - Mean agents in places: 1.50
+2026-05-05 02:14:37,302 - __main__ - INFO - Max agents in places: 2
+2026-05-05 02:14:37,302 - __main__ - INFO - Min agents in places: 1
+2026-05-05 02:14:37,302 - __main__ - INFO - 
+=== Per-Place Statistics ===
+2026-05-05 02:14:37,302 - __main__ - INFO - 
+hab_module:
+2026-05-05 02:14:37,302 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:14:37,302 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:14:37,302 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:14:37,302 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:14:37,302 - __main__ - INFO - 
+lab_module:
+2026-05-05 02:14:37,302 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:14:37,303 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:14:37,303 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:14:37,303 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:14:37,303 - __main__ - INFO - 
+cupola:
+2026-05-05 02:14:37,303 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:14:37,303 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:14:37,303 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:14:37,303 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:14:37,303 - __main__ - INFO - 
+common_area:
+2026-05-05 02:14:37,303 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:14:37,303 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:14:37,303 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:14:37,303 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:14:37,303 - __main__ - INFO - 
+exercise_area:
+2026-05-05 02:14:37,303 - __main__ - INFO -   Mean occupancy: 37.50%
+2026-05-05 02:14:37,303 - __main__ - INFO -   Mean agents: 1.50
+2026-05-05 02:14:37,303 - __main__ - INFO -   Max agents: 2
+2026-05-05 02:14:37,303 - __main__ - INFO -   Min agents: 1
+2026-05-05 02:14:37,303 - __main__ - INFO - 
+crew_quarters:
+2026-05-05 02:14:37,303 - __main__ - INFO -   Mean occupancy: 0.00%
+2026-05-05 02:14:37,303 - __main__ - INFO -   Mean agents: 0.00
+2026-05-05 02:14:37,303 - __main__ - INFO -   Max agents: 0
+2026-05-05 02:14:37,303 - __main__ - INFO -   Min agents: 0
+2026-05-05 02:14:37,768 - __main__ - INFO - Saved statistics plot: outputs/spatial/output_iss_cursor_smoke_run_b/statistics.png

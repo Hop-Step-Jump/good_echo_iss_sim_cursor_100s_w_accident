@@ -1,0 +1,6 @@
+effect_id	object_id	object_name	start_step	module_id	target_event_ids	repaired_event_ids	conflict_event_ids	affected_agent_ids	first_repair_step	status	effect_summary	effect_path
+effect_OBJ07	OBJ07	持ち寄り棚	6	common_area	REPB01;REPB06	REPB01;REPB06		ISS02;ISS07;ISS08;ISS09	10	effective	共用部の声量の修復、帰還前の助言の修復を修復イベントとして接続。会話量や距離の取り方が調整された。	S06 持ち寄り棚 → S10 共用部の声量の修復 → S47 帰還前の助言の修復
+effect_OBJ06	OBJ06	話しかけてOKサイン	11	cupola	CONF02;REPB02	REPB02	CONF02	ISS03;ISS09	14	effective	キューポラ声かけの修復を修復イベントとして接続。会話量や距離の取り方が調整された。	S11 話しかけてOKサイン → S13 キューポラ声かけ → S14 キューポラ声かけの修復
+effect_OBJ09	OBJ09	個室聖域マーク	18	crew_quarters	CONF03;REPB03	REPB03	CONF03	ISS02;ISS05	21	effective	個室待ちの修復を修復イベントとして接続。会話量や距離の取り方が調整された。	S18 個室聖域マーク → S20 個室待ち → S21 個室待ちの修復
+effect_OBJ03	OBJ03	リソース・スコアボード	24	common_area	CONF04;REPB04	REPB04	CONF04	ISS00;ISS08	29	effective	資源スコアの圧の修復を修復イベントとして接続。会話量や距離の取り方が調整された。	S24 リソース・スコアボード → S27 資源スコアの圧 → S29 資源スコアの圧の修復
+effect_OBJ10	OBJ10	モジュール移動投票パネル	28	lab_module	CONF05;REPB05	REPB05	CONF05	ISS06;ISS08	35	effective	運動枠の順番の修復を修復イベントとして接続。会話量や距離の取り方が調整された。	S28 モジュール移動投票パネル → S34 運動枠の順番 → S35 運動枠の順番の修復

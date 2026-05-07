@@ -1,0 +1,28 @@
+event_id	start_step	end_step	event_type	timeline_type	label	module_id	participant_ids	related_object_id	related_conflict_id	intensity	direction	description
+BASE01	1	10	baseline	baseline	初期適応					0.35	距離測定↑ 生活不安↑	ISSでの共同生活が始まり、互いの距離感と生活ルールを探る。
+OBJ07	6	100	object	nudge	持ち寄り棚	common_area		OBJ07		0.45	故郷共有↑ 弱い紐帯↑	共用エリアに持ち寄り棚が置かれ、写真・レシピ・手紙などを通じて背景を共有できる。
+CONF01	9	9	conflict	conflict	共用部の声量	common_area	ISS07;ISS02			0.44	すれ違い↑ 疲労反応↑	明るい会話が、疲れている人には負荷として伝わり、共用部で声量をめぐるすれ違いが起きる。
+REPB01	10	11	repair	repair	共用部の声量の修復	common_area	ISS07;ISS02	OBJ07	CONF01	0.18	記憶共有↑ 距離再調整↑	持ち寄り棚をきっかけに会話の入口が変わり、言い方と場の使い方を調整する。
+BASE02	11	20	baseline	baseline	関係形成					0.45	偶発対話↑ 小摩擦↑	共同食・作業・休息のリズムが見え始め、相性差と支え合いが同時に出る。
+OBJ06	11	100	object	nudge	話しかけてOKサイン	cupola		OBJ06		0.40	声かけ障壁↓ 相談↑	キューポラの一席に話しかけてOKサインが置かれ、孤立者に声をかけるきっかけが生まれる。
+CONF02	13	13	conflict	conflict	キューポラ声かけ	cupola	ISS03;ISS09	OBJ06		0.62	言い合い↑ 孤立反応↑	一人で地球を見たい人と、心配して声をかけたい人がぶつかり、キューポラで言い合いになる。
+REPB02	14	15	repair	repair	キューポラ声かけの修復	cupola	ISS03;ISS09	OBJ06	CONF02	0.20	声かけ許可↑ 警戒低下↑	話しかけてOKサインにより、踏み込みすぎない短い声かけと断る余地が見える。
+OBJ09	18	100	object	nudge	個室聖域マーク	crew_quarters		OBJ09		0.42	プライバシー尊重↑ 侵入不安↓	個室入口に聖域マークが置かれ、一人でいることを尊重する暗黙ルールができる。
+CONF03	20	20	conflict	conflict	個室待ち	crew_quarters	ISS02;ISS05	OBJ09		0.64	プライバシー圧↑ 言い合い↑	一人になりたいタイミングが重なり、個室の順番と声かけの仕方に敏感になる。
+REPB03	21	22	repair	repair	個室待ちの修復	crew_quarters	ISS02;ISS05	OBJ09	CONF03	0.20	一人時間尊重↑ 順番調整↑	個室聖域マークを手がかりに、一人時間を責めずに順番を組み直す。
+BASE03	21	35	baseline	baseline	中盤ストレス					0.60	疲労↑ 孤立リスク↑	閉鎖空間の疲れ、個室需要、役割偏りが蓄積する。
+OBJ03	24	100	object	nudge	リソース・スコアボード	common_area		OBJ03		0.38	協力可視化↑ 個人責め↓	水・酸素・食料の節約がチームスコアとして見え、個人責任ではなく共同達成として扱える。
+CONF04	27	28	conflict	conflict	資源スコアの圧	common_area	ISS00;ISS08	OBJ03		0.52	責められ感↑ 反発↑	資源表示が協力ではなく、誰かを責める数字として見え始め、短い反発が起きる。
+OBJ10	28	100	object	nudge	モジュール移動投票パネル	lab_module		OBJ10		0.35	移動動機↑ こもり込み↓	別モジュールへ移動した人だけが答えられる二択パネルが置かれ、ゆるい移動理由になる。
+REPB04	29	30	repair	repair	資源スコアの圧の修復	common_area	ISS00;ISS08	OBJ03	CONF04	0.18	共同達成↑ 責任分散↑	スコアを個人評価ではなくチームの調整材料として読み替える。
+CONF05	34	34	conflict	conflict	運動枠の順番	exercise_area	ISS06;ISS08	OBJ10		0.46	順番摩擦↑ 疲労感↑	身体ルーティンを守りたい人と、疲れて運動枠を逃したくない人の希望が重なる。
+REPB05	35	36	repair	repair	運動枠の順番の修復	exercise_area	ISS06;ISS08	OBJ10	CONF05	0.17	移動投票↑ 順番合意↑	モジュール移動投票がきっかけになり、運動枠の前後に短い調整を入れる。
+BASE04	36	44	baseline	baseline	後半再調整					0.50	修復機会↑ 気遣い疲れ↑	共同ルールと休息配分を見直し、修復できる関係と固定化する距離が分かれる。
+BASE05	45	49	baseline	baseline	帰還準備					0.65	緊張↑ 意味づけ↑	帰還が近づき、別れ・評価・地上復帰への不安と感謝が同時に強まる。宇宙ゴミ衝突前の区切り。
+CONF06	46	46	conflict	conflict	帰還前の助言	cupola	ISS08;ISS09			0.66	押しつけ感↑ 言い合い↑	年長者の助言が、緊張している相手には押しつけに聞こえ、帰還前の不安と重なって言い合いになる。
+REPB06	47	49	repair	repair	帰還前の助言の修復	cupola	ISS08;ISS09	OBJ07	CONF06	0.22	経験共有↑ 謝意回復↑	持ち寄り棚の写真や記録を介して、助言ではなく経験の共有として話し直す。
+DEBR01	50	50	baseline	baseline	宇宙ゴミ衝突・HAB損傷					0.92	閉鎖ストレス↑ 緊急対応↑	宇宙デブリがISSに衝突し居住モジュール（HAB）が損傷。HABは一時使用不可となり、地上の宇宙センター指示のもとISS全体の応急修復が始まる。
+DEBR02	51	55	baseline	baseline	HAB封鎖・5日間の応急修復					0.88	資源圧↑ 同居密度↑	地上指示に従い5日間で隔壁・生命維持系の優先順位を直す。HABは封鎖のまま、他区画に人員が押し寄せる。
+DEBR03	56	59	baseline	baseline	HAB暫定再開					0.72	安堵↑ 疲労残存↑	Day56よりHABの暫定利用が許可される。完全復旧ではなく、監視と人数制限が続く。
+DEBR04	60	64	baseline	baseline	HAB未修復部・酸素漏れ判明					0.95	資源圧↑ 不安↑	HABに微小な貫通穴が残り酸素が漏れていると判明。他モジュールは当面セーフだが、全体の酸素バランスへの不安が急上昇する。
+DEBR05	65	100	baseline	baseline	LAB酸素低下・生命維持危機					0.98	協力必須↑ 対立激化リスク↑	実験棟（LAB）でも酸素濃度が危険域に低下。生命維持のため全員の役割分担・通信・節気とリスクの合意が鍵となる。

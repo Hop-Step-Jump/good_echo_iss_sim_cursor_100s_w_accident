@@ -1,0 +1,13 @@
+{
+  "kind": "habitat_ui_spatial_bridge",
+  "spatial_dir": "outputs/spatial/output_iss_cursor_run_b",
+  "spatial_config": "examples/spatial_demo/configs/config.iss.cursor.run_b.yaml",
+  "pack": "domain_packs/iss_benevolence",
+  "scenario": "run_b",
+  "run_id": "iss_cursor_run_b",
+  "snapshots": "outputs/spatial/output_iss_cursor_run_b/spatial_step_snapshots.jsonl",
+  "had_snapshots": true,
+  "steps": 100,
+  "message_rows": 3544,
+  "degraded_geometry": false
+}
